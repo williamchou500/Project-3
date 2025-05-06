@@ -101,6 +101,14 @@ function stepForward() {
 function stepBack() {
   if (currentIndex <= 0) return;
 
+  if (currentIndex >= currentPoints.length - 1) {
+    dot.attr("visibility", "visible");
+    linesGroup.selectAll("line")
+      .transition()
+      .duration(300)
+      .attr("stroke", "pink");
+  };
+
   drawnLines.pop()?.remove();
   currentIndex -= 1;
 
