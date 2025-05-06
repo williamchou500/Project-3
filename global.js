@@ -63,8 +63,7 @@ function drawLine(from, to, color) {
     .attr("x2", xScale(to.CoPx))
     .attr("y2", yScale(to.CoPy))
     .attr("stroke", color)
-    .attr("stroke-width", 2)
-    .lower();
+    .attr("stroke-width", 3)
   return line;
 }
 
@@ -78,15 +77,19 @@ function updateDot(point) {
 function stepForward() {
   if (currentIndex >= currentPoints.length - 1) {
     dot.attr("visibility", "hidden");
+    linesGroup.selectAll("line")
+      .transition()
+      .duration(300)
+      .attr("stroke", "red");
     return;
   };
 
   const from = currentPoints[currentIndex];
   const to = currentPoints[currentIndex + 1];
 
-  const line = drawLine(from, to, "red");
+  const line = drawLine(from, to, "black");
 
-  drawnLines.forEach(l => l.attr("stroke", "gray"));
+  drawnLines.forEach(l => l.attr("stroke", "pink"));
   drawnLines.push(line);
 
   currentIndex += 1;
