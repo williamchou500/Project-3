@@ -130,6 +130,8 @@ function reset() {
   updateDot(startPoint);
   timeDisplay.text("0.00s");
   prevPoint = startPoint;
+
+  dot.attr("visibility", "visible");
 }
 
 sampleSelect.on("change", () => {
