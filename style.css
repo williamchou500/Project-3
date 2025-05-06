@@ -1,0 +1,10 @@
+svg {
+    border: 1px solid #ccc;
+    background-color: #fefefe;
+  }
+  #controls {
+    margin-top: 10px;
+  }
+  select, input[type="range"] {
+    margin-right: 10px;
+  }
