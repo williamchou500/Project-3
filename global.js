@@ -87,7 +87,7 @@ function stepForward() {
   const from = currentPoints[currentIndex];
   const to = currentPoints[currentIndex + 1];
 
-  const line = drawLine(from, to, "black");
+  const line = drawLine(from, to, "red");
 
   drawnLines.forEach(l => l.attr("stroke", "pink"));
   drawnLines.push(line);
