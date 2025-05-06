@@ -25,7 +25,7 @@ const yScale = d3.scaleLinear()
   .domain(yExtent)
   .range([height - 50, 50]);
 
-  const xAxisGroup = svg.append("g")
+const xAxisGroup = svg.append("g")
   .attr("transform", `translate(0, ${height - 50})`);
 
 const yAxisGroup = svg.append("g")
