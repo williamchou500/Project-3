@@ -147,9 +147,14 @@ const pairs = {
   }
 
   document.getElementById("play").onclick = () => {
-    paused = false;
-    startAnimation();
-  };
+  if (step >= maxSteps) {
+    step = 0;
+    drawStep(step + 1); // optional: show first frame again immediately
+    step++;
+  }
+  paused = false;
+  startAnimation();
+};
 
   document.getElementById("pause").onclick = () => {
     paused = true;
@@ -165,9 +170,10 @@ const pairs = {
   };
 
   document.getElementById("skip").onclick = () => {
-    clearInterval(intervalId);
-    drawStep(maxSteps);
-  };
+  clearInterval(intervalId);
+  drawStep(maxSteps);
+  step = maxSteps; // 👈 Reset the step to max
+};
 
   d3.select("#pairSelect").on("change", function() {
     step = 0;
