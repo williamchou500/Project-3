@@ -2,24 +2,32 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>D3 Moving Dot Tracker</title>
-  <link rel="stylesheet" href="./style.css" />
+  <title>CoP Displacement Comparison</title>
   <script src="https://d3js.org/d3.v7.min.js"></script>
+  <style>
+    body { font-family: Arial, sans-serif; }
+    .controls { margin-bottom: 20px; }
+    .button { margin-right: 10px; }
+    svg { border: 1px solid #ccc; }
+  </style>
 </head>
 <body>
-    <h1>How much sway does music (or lack of) have on our bodies?</h1>
-    <svg width="800" height="600"></svg>
-    <div class="controls">
-    <select id="sampleSelect"></select>
-    <select id="experimentSelect"></select>
-    <button id="backButton">← Back</button>
-    <button id="forwardButton">Forward →</button>
-    <button id="resetButton">Reset ⟲</button>
-    <span id="timeDisplay">0.00s</span>
-    </div>
-  <script type="module">
+
+<h2>Compare Overall CoP Displacement</h2>
+
+<div class="controls">
+  <label for="pairSelect">Select Comparison:</label>
+  <select id="pairSelect"></select>
+  <button class="button" id="play">Play</button>
+  <button class="button" id="pause">Pause</button>
+  <button class="button" id="restart">Restart</button>
+  <button class="button" id="skip">Skip</button>
+</div>
+
+<svg width="800" height="400"></svg>
+
+<script type="module">
     import './global.js';
   </script>
 </body>
 </html>
-

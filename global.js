@@ -1,176 +1,153 @@
-const response = await fetch('./body_sway_data_small.json');
-const flatData = await response.json();
-
-const svg = d3.select("svg");
-const width = +svg.attr("width");
-const height = +svg.attr("height");
-
-const sampleSelect = d3.select("#sampleSelect");
-const experimentSelect = d3.select("#experimentSelect");
-const forwardButton = d3.select("#forwardButton");
-const backButton = d3.select("#backButton");
-const timeDisplay = d3.select("#timeDisplay");
-
-const linesGroup = svg.append("g");
-const dot = svg.append("circle").attr("r", 5).attr("fill", "blue");
-
-const xExtent = d3.extent(flatData, d => d.CoPx);
-const yExtent = d3.extent(flatData, d => d.CoPy);
-
-const xScale = d3.scaleLinear()
-  .domain(xExtent)
-  .range([50, width - 50]);
-
-const yScale = d3.scaleLinear()
-  .domain(yExtent)
-  .range([height - 50, 50]);
-
-const xAxisGroup = svg.append("g")
-  .attr("transform", `translate(0, ${height - 50})`);
-
-const yAxisGroup = svg.append("g")
-  .attr("transform", `translate(${50}, 0)`);
-
-xAxisGroup.call(d3.axisBottom(xScale));
-yAxisGroup.call(d3.axisLeft(yScale));
-
-const groupedData = d3.group(flatData, d => d.Sample, d => d.Description);
-
-const samples = Array.from(groupedData.keys());
-sampleSelect.selectAll("option")
-  .data(samples)
-  .enter().append("option")
-  .attr("value", d => d)
-  .text(d => d);
-
-let currentIndex = 0;
-let currentPoints = [];
-let prevPoint = null;
-let drawnLines = [];
-
-function updateExperiments() {
-  const selectedSample = sampleSelect.property("value");
-  const experiments = Array.from(groupedData.get(selectedSample).keys());
-  experimentSelect.selectAll("option").remove();
-  experimentSelect.selectAll("option")
-    .data(experiments)
-    .enter().append("option")
-    .attr("value", d => d)
-    .text(d => d);
-}
-
-function getCurrentPoints() {
-  const sample = sampleSelect.property("value");
-  const experiment = experimentSelect.property("value");
-  return groupedData.get(sample)?.get(experiment);
-}
-
-function drawLine(from, to, color) {
-  const line = linesGroup.append("line")
-    .attr("x1", xScale(from.CoPx))
-    .attr("y1", yScale(from.CoPy))
-    .attr("x2", xScale(to.CoPx))
-    .attr("y2", yScale(to.CoPy))
-    .attr("stroke", color)
-    .attr("stroke-width", 3)
-  return line;
-}
-
-function updateDot(point) {
-  dot.transition()
-    .duration(200)
-    .attr("cx", xScale(point.CoPx))
-    .attr("cy", yScale(point.CoPy));
-}
-
-function stepForward() {
-  if (currentIndex >= currentPoints.length - 1) {
-    dot.attr("visibility", "hidden");
-    linesGroup.selectAll("line")
-      .transition()
-      .duration(300)
-      .attr("stroke", "red");
-    return;
+const pairs = {
+    "Eyes closed, VR off: Mozart's Jupiter with loudness shifted at 0.1Hz vs 0.25Hz": [
+      "Eyes closed, VR environment off, Mozart's Jupiter with loudness shifted at 0.1Hz",
+      "Eyes closed, VR environment off, Mozart's Jupiter with loudness shifted at 0.25Hz"
+    ],
+    "VR on: unmodified Mozart's Jupiter vs no music": [
+      "VR environment on, unmodified Mozart's Jupiter",
+      "VR environment on, no music"
+    ],
+    "VR on: 0.1Hz vs 0.25Hz": [
+      "VR environment on, Mozart's Jupiter with loudness shifted at 0.1Hz",
+      "VR environment on, Mozart's Jupiter with loudness shifted at 0.25Hz"
+    ],
+    "VR translating at 0.1Hz: no music vs unmodified Mozart's Jupiter": [
+      "VR environment on and moving at 0.1 Hz, no music",
+      "VR environment on and moving at 0.1 Hz, unmodified Mozart's Jupiter"
+    ],
+    "VR translating at 0.1Hz: Mozart's Jupiter with loudness shifted at 0.1Hz vs 0.25Hz": [
+      "VR environment on and moving at 0.1 Hz, Mozart's Jupiter with loudness shifted at 0.1Hz",
+      "VR environment on and moving at 0.1 Hz, Mozart's Jupiter with loudness shifted at 0.25Hz"
+    ],
+    "Eyes closed, VR on: unmodified Mozart's Jupiter vs no music": [
+      "Eyes closed, VR environment on, unmodified Mozart's Jupiter",
+      "Eyes closed, VR environment on, no music"
+    ]
   };
 
-  const from = currentPoints[currentIndex];
-  const to = currentPoints[currentIndex + 1];
+  const svg = d3.select("svg");
+  const width = +svg.attr("width") - 60;
+  const height = +svg.attr("height") - 60;
+  const margin = { top: 20, right: 30, bottom: 40, left: 50 };
 
-  const line = drawLine(from, to, "red");
+  let xScale = d3.scaleLinear().domain([0, 59]).range([margin.left, width]);
+  let yScale = d3.scaleLinear().range([height, margin.top]);
 
-  drawnLines.forEach(l => l.attr("stroke", "pink"));
-  drawnLines.push(line);
+  let line = d3.line()
+    .x(d => xScale(+d.Time))
+    .y(d => yScale(+d["Overall CoP Displacement"]));
 
-  currentIndex += 1;
-  updateDot(to);
-  timeDisplay.text(`${to.Time.toFixed(2)}s`);
-  prevPoint = to;
-}
+  let allData = {};
+  let currentPair = [];
+  let animationFrame, step = 0, maxSteps = 60, paused = false;
+  let intervalId;
 
-function stepBack() {
-  if (currentIndex <= 0) return;
+  const color = ['red', 'blue'];
 
-  if (currentIndex >= currentPoints.length - 1) {
-    dot.attr("visibility", "visible");
-    linesGroup.selectAll("line")
-      .transition()
-      .duration(300)
-      .attr("stroke", "pink");
+  const start = performance.now();
+
+  // Load CSV and initialize
+  d3.csv("swapped.csv").then(data => {
+    // Group by Description
+    Object.keys(pairs).forEach(pairKey => {
+      const [g1, g2] = pairs[pairKey];
+      allData[pairKey] = [
+        data.filter(d => d.Description === g1),
+        data.filter(d => d.Description === g2)
+      ];
+    });
+
+    initDropdown();
+    updateGraph(Object.keys(pairs)[0]);
+  });
+
+  function initDropdown() {
+    const dropdown = d3.select("#pairSelect");
+    dropdown.selectAll("option")
+      .data(Object.keys(pairs))
+      .enter()
+      .append("option")
+      .text(d => d);
+
+    dropdown.on("change", function() {
+      step = 0;
+      cancelAnimationFrame(animationFrame);
+      updateGraph(this.value);
+    });
+  }
+
+  function updateGraph(pairKey) {
+    svg.selectAll("*").remove();
+    currentPair = allData[pairKey];
+
+    const flatY = currentPair.flat().map(d => +d["Overall CoP Displacement"]);
+    yScale.domain([d3.min(flatY), d3.max(flatY)]).nice();
+
+    // Axes
+    const xAxis = d3.axisBottom(xScale);
+    const yAxis = d3.axisLeft(yScale);
+    svg.append("g").attr("transform", `translate(0,${height})`).call(xAxis);
+    svg.append("g").attr("transform", `translate(${margin.left},0)`).call(yAxis);
+
+    // Empty lines
+    svg.selectAll(".line")
+      .data(currentPair)
+      .enter()
+      .append("path")
+      .attr("class", "line")
+      .attr("stroke", (d, i) => color[i])
+      .attr("stroke-width", 2)
+      .attr("fill", "none");
+  }
+
+   function drawStep(step) {
+    svg.selectAll(".line")
+      .data(currentPair)
+      .attr("d", d => line(d.slice(0, step)));
+  }
+
+  function startAnimation() {
+    clearInterval(intervalId);
+    drawStep(step); // Show first step immediately
+    step++;
+
+    intervalId = setInterval(() => {
+    if (step > maxSteps || paused) {
+        clearInterval(intervalId);
+        return;
+    }
+
+    drawStep(step);
+    step++;
+    
+    }, 1000);
+  }
+
+  document.getElementById("play").onclick = () => {
+    paused = false;
+    startAnimation();
   };
 
-  drawnLines.pop()?.remove();
-  currentIndex -= 1;
+  document.getElementById("pause").onclick = () => {
+    paused = true;
+    clearInterval(intervalId);
+  };
 
-  const point = currentPoints[currentIndex];
-  updateDot(point);
-  timeDisplay.text(`${point.Time.toFixed(2)}s`);
-  prevPoint = point;
-}
+  document.getElementById("restart").onclick = () => {
+    step = 0;
+    paused = false;
+    clearInterval(intervalId);
+    drawStep(0);
+    startAnimation();
+  };
 
-function reset() {
-  currentPoints = getCurrentPoints();
-  if (!currentPoints || currentPoints.length === 0) return;
+  document.getElementById("skip").onclick = () => {
+    clearInterval(intervalId);
+    drawStep(maxSteps);
+  };
 
-  linesGroup.selectAll("*").remove();
-  drawnLines = [];
-  currentIndex = 0;
-
-  const startPoint = currentPoints[0];
-  updateDot(startPoint);
-  timeDisplay.text("0.00s");
-  prevPoint = startPoint;
-
-  dot.attr("visibility", "visible");
-}
-
-sampleSelect.on("change", () => {
-  updateExperiments();
-  reset();
-});
-
-experimentSelect.on("change", reset);
-forwardButton.on("click", stepForward);
-backButton.on("click", stepBack);
-
-const resetButton = d3.select("#resetButton");
-
-resetButton.on("click", () => {
-  const points = getCurrentPoints();
-  if (!points || points.length === 0) return;
-
-  linesGroup.selectAll("*").remove();
-  drawnLines = [];
-  currentIndex = 0;
-
-  const start = points[0];
-  timeDisplay.text(`${start.Time.toFixed(2)}s`);
-
-  dot
-    .interrupt()
-    .attr("cx", xScale(start.CoPx))
-    .attr("cy", yScale(start.CoPy))
-    .attr("visibility", "visible"); // Show the dot again
-});
-
-updateExperiments();
-reset();
+  d3.select("#pairSelect").on("change", function() {
+    step = 0;
+    clearInterval(intervalId);
+    updateGraph(this.value);
+  });
