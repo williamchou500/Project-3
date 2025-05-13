@@ -131,7 +131,7 @@
     const svg2 = d3.select("#svg2");
     const width2 = +svg2.attr("width") - 60;
     const height2 = +svg2.attr("height") - 60;
-    const margin = { top: 20, right: 30, bottom: 40, left: 50 };
+    const margin = { top: 40, right: 40, bottom: 60, left: 70 };
 
     let xScale = d3.scaleLinear().domain([0, 59]).range([margin.left, width2]);
     let yScale = d3.scaleLinear().range([height2, margin.top]);
@@ -312,11 +312,36 @@
         const flatY = currentPair.flat().map(d => +d["Overall CoP Displacement"]);
         yScale.domain([d3.min(flatY) - 0.0001, d3.max(flatY) + 0.0001]);
 
-    
+        // Create axes
         const xAxis = d3.axisBottom(xScale);
         const yAxis = d3.axisLeft(yScale);
-        svg2.append("g").attr("transform", `translate(0,${height2})`).call(xAxis);
-        svg2.append("g").attr("transform", `translate(${margin.left},0)`).call(yAxis);
+
+        // Add X axis
+        svg2.append("g")
+            .attr("transform", `translate(0,${height2})`)
+            .call(xAxis)
+            .append("text") // X axis label
+            .attr("class", "axis-label")
+            .attr("x", width2 / 2)
+            .attr("y", 35)
+            .attr("fill", "black")
+            .style("text-anchor", "middle")
+            .style("font-size", "14px")
+            .text("Time (seconds)");
+
+        // Add Y axis
+        svg2.append("g")
+            .attr("transform", `translate(${margin.left},0)`)
+            .call(yAxis)
+            .append("text") // Y axis label
+            .attr("class", "axis-label")
+            .attr("transform", "rotate(-90)")
+            .attr("x", -height2 / 2)
+            .attr("y", -40)
+            .attr("fill", "black")
+            .style("text-anchor", "middle")
+            .style("font-size", "14px")
+            .text("Displacement from Origin (mm)");
 
         
         svg2.selectAll(".line")
