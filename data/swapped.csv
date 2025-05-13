@@ -420,243 +420,303 @@
 418,"VR environment on and moving at 0.1 Hz, no music",57.0,0.04366113066177809
 419,"VR environment on and moving at 0.1 Hz, no music",58.0,0.04549124168116303
 420,"VR environment on and moving at 0.1 Hz, no music",59.0,0.045019926757025555
-421,"VR environment on, Mozart's Jupiter with loudness shifted at 0.25Hz",0.0,0.042089859431580876
-422,"VR environment on, Mozart's Jupiter with loudness shifted at 0.25Hz",1.0,0.0407561257564767
-423,"VR environment on, Mozart's Jupiter with loudness shifted at 0.25Hz",2.0,0.04128401111014326
-424,"VR environment on, Mozart's Jupiter with loudness shifted at 0.25Hz",3.0,0.04109481684080877
-425,"VR environment on, Mozart's Jupiter with loudness shifted at 0.25Hz",4.0,0.04240932585296182
-426,"VR environment on, Mozart's Jupiter with loudness shifted at 0.25Hz",5.0,0.041597366545845955
-427,"VR environment on, Mozart's Jupiter with loudness shifted at 0.25Hz",6.0,0.04294657837596657
-428,"VR environment on, Mozart's Jupiter with loudness shifted at 0.25Hz",7.0,0.04314252904550794
-429,"VR environment on, Mozart's Jupiter with loudness shifted at 0.25Hz",8.0,0.04350185905619968
-430,"VR environment on, Mozart's Jupiter with loudness shifted at 0.25Hz",9.0,0.04283587804698062
-431,"VR environment on, Mozart's Jupiter with loudness shifted at 0.25Hz",10.0,0.043865927316256215
-432,"VR environment on, Mozart's Jupiter with loudness shifted at 0.25Hz",11.0,0.04384937248774785
-433,"VR environment on, Mozart's Jupiter with loudness shifted at 0.25Hz",12.0,0.041760603412253385
-434,"VR environment on, Mozart's Jupiter with loudness shifted at 0.25Hz",13.0,0.042669227653789
-435,"VR environment on, Mozart's Jupiter with loudness shifted at 0.25Hz",14.0,0.04240911388384448
-436,"VR environment on, Mozart's Jupiter with loudness shifted at 0.25Hz",15.0,0.043707570306384426
-437,"VR environment on, Mozart's Jupiter with loudness shifted at 0.25Hz",16.0,0.04311268420043562
-438,"VR environment on, Mozart's Jupiter with loudness shifted at 0.25Hz",17.0,0.04199686196077475
-439,"VR environment on, Mozart's Jupiter with loudness shifted at 0.25Hz",18.0,0.04377570360310106
-440,"VR environment on, Mozart's Jupiter with loudness shifted at 0.25Hz",19.0,0.042785254230969405
-441,"VR environment on, Mozart's Jupiter with loudness shifted at 0.25Hz",20.0,0.04290690805516142
-442,"VR environment on, Mozart's Jupiter with loudness shifted at 0.25Hz",21.0,0.043398023299511944
-443,"VR environment on, Mozart's Jupiter with loudness shifted at 0.25Hz",22.0,0.04383494141752471
-444,"VR environment on, Mozart's Jupiter with loudness shifted at 0.25Hz",23.0,0.043979189223779844
-445,"VR environment on, Mozart's Jupiter with loudness shifted at 0.25Hz",24.0,0.04327443855650381
-446,"VR environment on, Mozart's Jupiter with loudness shifted at 0.25Hz",25.0,0.04353735738020475
-447,"VR environment on, Mozart's Jupiter with loudness shifted at 0.25Hz",26.0,0.042988841697381146
-448,"VR environment on, Mozart's Jupiter with loudness shifted at 0.25Hz",27.0,0.043643017368857985
-449,"VR environment on, Mozart's Jupiter with loudness shifted at 0.25Hz",28.0,0.042286088391966584
-450,"VR environment on, Mozart's Jupiter with loudness shifted at 0.25Hz",29.0,0.04292287256400133
-451,"VR environment on, Mozart's Jupiter with loudness shifted at 0.25Hz",30.0,0.043695047003039125
-452,"VR environment on, Mozart's Jupiter with loudness shifted at 0.25Hz",31.0,0.042734052530117854
-453,"VR environment on, Mozart's Jupiter with loudness shifted at 0.25Hz",32.0,0.04288419076412007
-454,"VR environment on, Mozart's Jupiter with loudness shifted at 0.25Hz",33.0,0.043528738298673444
-455,"VR environment on, Mozart's Jupiter with loudness shifted at 0.25Hz",34.0,0.04271904791569296
-456,"VR environment on, Mozart's Jupiter with loudness shifted at 0.25Hz",35.0,0.04246952525812202
-457,"VR environment on, Mozart's Jupiter with loudness shifted at 0.25Hz",36.0,0.043406111404622784
-458,"VR environment on, Mozart's Jupiter with loudness shifted at 0.25Hz",37.0,0.044012086963842345
-459,"VR environment on, Mozart's Jupiter with loudness shifted at 0.25Hz",38.0,0.043642879828268984
-460,"VR environment on, Mozart's Jupiter with loudness shifted at 0.25Hz",39.0,0.04244935925165011
-461,"VR environment on, Mozart's Jupiter with loudness shifted at 0.25Hz",40.0,0.043596222342366604
-462,"VR environment on, Mozart's Jupiter with loudness shifted at 0.25Hz",41.0,0.044917012567475496
-463,"VR environment on, Mozart's Jupiter with loudness shifted at 0.25Hz",42.0,0.044680438987060346
-464,"VR environment on, Mozart's Jupiter with loudness shifted at 0.25Hz",43.0,0.043372572895088876
-465,"VR environment on, Mozart's Jupiter with loudness shifted at 0.25Hz",44.0,0.04442406649425053
-466,"VR environment on, Mozart's Jupiter with loudness shifted at 0.25Hz",45.0,0.04349189136590128
-467,"VR environment on, Mozart's Jupiter with loudness shifted at 0.25Hz",46.0,0.04302818304070404
-468,"VR environment on, Mozart's Jupiter with loudness shifted at 0.25Hz",47.0,0.04227312503886072
-469,"VR environment on, Mozart's Jupiter with loudness shifted at 0.25Hz",48.0,0.04182707969597171
-470,"VR environment on, Mozart's Jupiter with loudness shifted at 0.25Hz",49.0,0.04368173431363163
-471,"VR environment on, Mozart's Jupiter with loudness shifted at 0.25Hz",50.0,0.04230857614471223
-472,"VR environment on, Mozart's Jupiter with loudness shifted at 0.25Hz",51.0,0.0419173064990696
-473,"VR environment on, Mozart's Jupiter with loudness shifted at 0.25Hz",52.0,0.04263662550798023
-474,"VR environment on, Mozart's Jupiter with loudness shifted at 0.25Hz",53.0,0.04252726174071728
-475,"VR environment on, Mozart's Jupiter with loudness shifted at 0.25Hz",54.0,0.043014103736838116
-476,"VR environment on, Mozart's Jupiter with loudness shifted at 0.25Hz",55.0,0.04320715071460674
-477,"VR environment on, Mozart's Jupiter with loudness shifted at 0.25Hz",56.0,0.04391582124707303
-478,"VR environment on, Mozart's Jupiter with loudness shifted at 0.25Hz",57.0,0.04251076183115613
-479,"VR environment on, Mozart's Jupiter with loudness shifted at 0.25Hz",58.0,0.043511175854994935
-480,"VR environment on, Mozart's Jupiter with loudness shifted at 0.25Hz",59.0,0.04210266696750411
-481,"VR environment on, no music",0.0,0.044353358057758474
-482,"VR environment on, no music",1.0,0.049723325520085224
-483,"VR environment on, no music",2.0,0.04508904256575924
-484,"VR environment on, no music",3.0,0.04363193839700426
-485,"VR environment on, no music",4.0,0.04414562009270472
-486,"VR environment on, no music",5.0,0.04445358522251164
-487,"VR environment on, no music",6.0,0.043885964370360506
-488,"VR environment on, no music",7.0,0.044696070574549114
-489,"VR environment on, no music",8.0,0.04472171223522169
-490,"VR environment on, no music",9.0,0.0450388360106373
-491,"VR environment on, no music",10.0,0.04475796598353836
-492,"VR environment on, no music",11.0,0.043803172935049116
-493,"VR environment on, no music",12.0,0.04423156732498306
-494,"VR environment on, no music",13.0,0.04390075648028264
-495,"VR environment on, no music",14.0,0.04475826006761725
-496,"VR environment on, no music",15.0,0.044623574299013626
-497,"VR environment on, no music",16.0,0.04265279917884596
-498,"VR environment on, no music",17.0,0.04370286549638563
-499,"VR environment on, no music",18.0,0.04346010329592618
-500,"VR environment on, no music",19.0,0.04349291104172347
-501,"VR environment on, no music",20.0,0.04415825943795961
-502,"VR environment on, no music",21.0,0.044882095568059555
-503,"VR environment on, no music",22.0,0.04522187558494854
-504,"VR environment on, no music",23.0,0.04413115518044068
-505,"VR environment on, no music",24.0,0.04431396020823505
-506,"VR environment on, no music",25.0,0.045355918971176044
-507,"VR environment on, no music",26.0,0.0437677552383799
-508,"VR environment on, no music",27.0,0.043466555978570985
-509,"VR environment on, no music",28.0,0.043854153023426656
-510,"VR environment on, no music",29.0,0.045624735680143795
-511,"VR environment on, no music",30.0,0.04571491334500558
-512,"VR environment on, no music",31.0,0.04348558516426389
-513,"VR environment on, no music",32.0,0.043444347740355174
-514,"VR environment on, no music",33.0,0.044383866131810536
-515,"VR environment on, no music",34.0,0.04682493807536231
-516,"VR environment on, no music",35.0,0.04831823645742718
-517,"VR environment on, no music",36.0,0.04668152961255819
-518,"VR environment on, no music",37.0,0.045982513646032334
-519,"VR environment on, no music",38.0,0.047514793596963624
-520,"VR environment on, no music",39.0,0.0482459494496472
-521,"VR environment on, no music",40.0,0.04879753949078305
-522,"VR environment on, no music",41.0,0.046985084209261695
-523,"VR environment on, no music",42.0,0.046910732669275514
-524,"VR environment on, no music",43.0,0.046910381981066965
-525,"VR environment on, no music",44.0,0.04586322023483861
-526,"VR environment on, no music",45.0,0.04580913567907434
-527,"VR environment on, no music",46.0,0.045239600766298474
-528,"VR environment on, no music",47.0,0.04662240666959043
-529,"VR environment on, no music",48.0,0.04535838509891428
-530,"VR environment on, no music",49.0,0.044361264437336456
-531,"VR environment on, no music",50.0,0.046219358050643915
-532,"VR environment on, no music",51.0,0.046309446433953246
-533,"VR environment on, no music",52.0,0.044952564032871914
-534,"VR environment on, no music",53.0,0.04671222337972343
-535,"VR environment on, no music",54.0,0.046422490476237026
-536,"VR environment on, no music",55.0,0.047275251483581596
-537,"VR environment on, no music",56.0,0.047799576572120216
-538,"VR environment on, no music",57.0,0.0444876654437565
-539,"VR environment on, no music",58.0,0.04471895988987016
-540,"VR environment on, no music",59.0,0.04600841126157778
-541,"VR environment on, unmodified Mozart's Jupiter",0.0,0.04612600455781508
-542,"VR environment on, unmodified Mozart's Jupiter",1.0,0.04687234864182194
-543,"VR environment on, unmodified Mozart's Jupiter",2.0,0.04704664254401337
-544,"VR environment on, unmodified Mozart's Jupiter",3.0,0.04559591362044179
-545,"VR environment on, unmodified Mozart's Jupiter",4.0,0.04619008565013845
-546,"VR environment on, unmodified Mozart's Jupiter",5.0,0.047654367806364895
-547,"VR environment on, unmodified Mozart's Jupiter",6.0,0.04768349692099825
-548,"VR environment on, unmodified Mozart's Jupiter",7.0,0.04704248878071081
-549,"VR environment on, unmodified Mozart's Jupiter",8.0,0.047922652021732806
-550,"VR environment on, unmodified Mozart's Jupiter",9.0,0.047524180997665665
-551,"VR environment on, unmodified Mozart's Jupiter",10.0,0.04843456487161919
-552,"VR environment on, unmodified Mozart's Jupiter",11.0,0.049020434216910165
-553,"VR environment on, unmodified Mozart's Jupiter",12.0,0.049370365833365175
-554,"VR environment on, unmodified Mozart's Jupiter",13.0,0.04805709946934712
-555,"VR environment on, unmodified Mozart's Jupiter",14.0,0.047711682395296065
-556,"VR environment on, unmodified Mozart's Jupiter",15.0,0.04852021546663564
-557,"VR environment on, unmodified Mozart's Jupiter",16.0,0.04767544774404763
-558,"VR environment on, unmodified Mozart's Jupiter",17.0,0.04770296680221425
-559,"VR environment on, unmodified Mozart's Jupiter",18.0,0.04649120652947527
-560,"VR environment on, unmodified Mozart's Jupiter",19.0,0.04986812908583981
-561,"VR environment on, unmodified Mozart's Jupiter",20.0,0.050025600433111876
-562,"VR environment on, unmodified Mozart's Jupiter",21.0,0.04945225526802417
-563,"VR environment on, unmodified Mozart's Jupiter",22.0,0.048795929467057485
-564,"VR environment on, unmodified Mozart's Jupiter",23.0,0.048757076031771006
-565,"VR environment on, unmodified Mozart's Jupiter",24.0,0.04817723774802791
-566,"VR environment on, unmodified Mozart's Jupiter",25.0,0.0497038041349634
-567,"VR environment on, unmodified Mozart's Jupiter",26.0,0.05077425184115653
-568,"VR environment on, unmodified Mozart's Jupiter",27.0,0.05009490182587104
-569,"VR environment on, unmodified Mozart's Jupiter",28.0,0.04936857191935732
-570,"VR environment on, unmodified Mozart's Jupiter",29.0,0.04956866172832514
-571,"VR environment on, unmodified Mozart's Jupiter",30.0,0.04782383754712528
-572,"VR environment on, unmodified Mozart's Jupiter",31.0,0.04814943557867386
-573,"VR environment on, unmodified Mozart's Jupiter",32.0,0.047055597602082985
-574,"VR environment on, unmodified Mozart's Jupiter",33.0,0.04742212177364954
-575,"VR environment on, unmodified Mozart's Jupiter",34.0,0.04782030598034253
-576,"VR environment on, unmodified Mozart's Jupiter",35.0,0.04584610871075662
-577,"VR environment on, unmodified Mozart's Jupiter",36.0,0.04571943051218279
-578,"VR environment on, unmodified Mozart's Jupiter",37.0,0.0462277400192345
-579,"VR environment on, unmodified Mozart's Jupiter",38.0,0.044882318129914674
-580,"VR environment on, unmodified Mozart's Jupiter",39.0,0.0459173592257063
-581,"VR environment on, unmodified Mozart's Jupiter",40.0,0.04739855247167102
-582,"VR environment on, unmodified Mozart's Jupiter",41.0,0.04712157747987552
-583,"VR environment on, unmodified Mozart's Jupiter",42.0,0.047975494658961344
-584,"VR environment on, unmodified Mozart's Jupiter",43.0,0.0470704297250231
-585,"VR environment on, unmodified Mozart's Jupiter",44.0,0.04759223303673251
-586,"VR environment on, unmodified Mozart's Jupiter",45.0,0.04547493384032118
-587,"VR environment on, unmodified Mozart's Jupiter",46.0,0.045378976690671737
-588,"VR environment on, unmodified Mozart's Jupiter",47.0,0.04589807041394495
-589,"VR environment on, unmodified Mozart's Jupiter",48.0,0.04711951866313875
-590,"VR environment on, unmodified Mozart's Jupiter",49.0,0.046620597377433494
-591,"VR environment on, unmodified Mozart's Jupiter",50.0,0.0465094553239753
-592,"VR environment on, unmodified Mozart's Jupiter",51.0,0.04806272400125782
-593,"VR environment on, unmodified Mozart's Jupiter",52.0,0.046906769682105144
-594,"VR environment on, unmodified Mozart's Jupiter",53.0,0.048532129958789895
-595,"VR environment on, unmodified Mozart's Jupiter",54.0,0.047319903343177705
-596,"VR environment on, unmodified Mozart's Jupiter",55.0,0.046303030919227425
-597,"VR environment on, unmodified Mozart's Jupiter",56.0,0.04664338051856824
-598,"VR environment on, unmodified Mozart's Jupiter",57.0,0.046506005590409
-599,"VR environment on, unmodified Mozart's Jupiter",58.0,0.04582034657507546
-600,"VR environment on, unmodified Mozart's Jupiter",59.0,0.04590151601551183
-601,"VR environment on and moving at 0.1 Hz, unmodified Mozart's Jupiter",0.0,0.043747704752067296
-602,"VR environment on and moving at 0.1 Hz, unmodified Mozart's Jupiter",1.0,0.041948765533915654
-603,"VR environment on and moving at 0.1 Hz, unmodified Mozart's Jupiter",2.0,0.04141031367453875
-604,"VR environment on and moving at 0.1 Hz, unmodified Mozart's Jupiter",3.0,0.0395595082332411
-605,"VR environment on and moving at 0.1 Hz, unmodified Mozart's Jupiter",4.0,0.03773549229790533
-606,"VR environment on and moving at 0.1 Hz, unmodified Mozart's Jupiter",5.0,0.03976533376320808
-607,"VR environment on and moving at 0.1 Hz, unmodified Mozart's Jupiter",6.0,0.04258515034966826
-608,"VR environment on and moving at 0.1 Hz, unmodified Mozart's Jupiter",7.0,0.04333814543841208
-609,"VR environment on and moving at 0.1 Hz, unmodified Mozart's Jupiter",8.0,0.045007657051922965
-610,"VR environment on and moving at 0.1 Hz, unmodified Mozart's Jupiter",9.0,0.043088603377251074
-611,"VR environment on and moving at 0.1 Hz, unmodified Mozart's Jupiter",10.0,0.04548276100398134
-612,"VR environment on and moving at 0.1 Hz, unmodified Mozart's Jupiter",11.0,0.04184686609392147
-613,"VR environment on and moving at 0.1 Hz, unmodified Mozart's Jupiter",12.0,0.038482076759323344
-614,"VR environment on and moving at 0.1 Hz, unmodified Mozart's Jupiter",13.0,0.038978931168506106
-615,"VR environment on and moving at 0.1 Hz, unmodified Mozart's Jupiter",14.0,0.04003874680185382
-616,"VR environment on and moving at 0.1 Hz, unmodified Mozart's Jupiter",15.0,0.03937422883443698
-617,"VR environment on and moving at 0.1 Hz, unmodified Mozart's Jupiter",16.0,0.03948961583268069
-618,"VR environment on and moving at 0.1 Hz, unmodified Mozart's Jupiter",17.0,0.043500061231612
-619,"VR environment on and moving at 0.1 Hz, unmodified Mozart's Jupiter",18.0,0.04597556518891942
-620,"VR environment on and moving at 0.1 Hz, unmodified Mozart's Jupiter",19.0,0.044932729986064346
-621,"VR environment on and moving at 0.1 Hz, unmodified Mozart's Jupiter",20.0,0.04574249744154135
-622,"VR environment on and moving at 0.1 Hz, unmodified Mozart's Jupiter",21.0,0.04375487353793028
-623,"VR environment on and moving at 0.1 Hz, unmodified Mozart's Jupiter",22.0,0.04242589022522557
-624,"VR environment on and moving at 0.1 Hz, unmodified Mozart's Jupiter",23.0,0.040139812015700015
-625,"VR environment on and moving at 0.1 Hz, unmodified Mozart's Jupiter",24.0,0.039862045499013725
-626,"VR environment on and moving at 0.1 Hz, unmodified Mozart's Jupiter",25.0,0.040355521093870465
-627,"VR environment on and moving at 0.1 Hz, unmodified Mozart's Jupiter",26.0,0.0420424469287326
-628,"VR environment on and moving at 0.1 Hz, unmodified Mozart's Jupiter",27.0,0.04368912345833522
-629,"VR environment on and moving at 0.1 Hz, unmodified Mozart's Jupiter",28.0,0.045051520827761316
-630,"VR environment on and moving at 0.1 Hz, unmodified Mozart's Jupiter",29.0,0.04683393678687342
-631,"VR environment on and moving at 0.1 Hz, unmodified Mozart's Jupiter",30.0,0.04496421648158087
-632,"VR environment on and moving at 0.1 Hz, unmodified Mozart's Jupiter",31.0,0.04389425654033013
-633,"VR environment on and moving at 0.1 Hz, unmodified Mozart's Jupiter",32.0,0.04093453389976538
-634,"VR environment on and moving at 0.1 Hz, unmodified Mozart's Jupiter",33.0,0.04044713749026994
-635,"VR environment on and moving at 0.1 Hz, unmodified Mozart's Jupiter",34.0,0.04055754661154981
-636,"VR environment on and moving at 0.1 Hz, unmodified Mozart's Jupiter",35.0,0.040168232943695655
-637,"VR environment on and moving at 0.1 Hz, unmodified Mozart's Jupiter",36.0,0.04254987856949368
-638,"VR environment on and moving at 0.1 Hz, unmodified Mozart's Jupiter",37.0,0.04579518232099826
-639,"VR environment on and moving at 0.1 Hz, unmodified Mozart's Jupiter",38.0,0.04714270073836384
-640,"VR environment on and moving at 0.1 Hz, unmodified Mozart's Jupiter",39.0,0.04615811756620054
-641,"VR environment on and moving at 0.1 Hz, unmodified Mozart's Jupiter",40.0,0.0455959085949052
-642,"VR environment on and moving at 0.1 Hz, unmodified Mozart's Jupiter",41.0,0.043819896194115464
-643,"VR environment on and moving at 0.1 Hz, unmodified Mozart's Jupiter",42.0,0.04104297508450539
-644,"VR environment on and moving at 0.1 Hz, unmodified Mozart's Jupiter",43.0,0.04238575386804461
-645,"VR environment on and moving at 0.1 Hz, unmodified Mozart's Jupiter",44.0,0.041958108723263464
-646,"VR environment on and moving at 0.1 Hz, unmodified Mozart's Jupiter",45.0,0.04203505776615322
-647,"VR environment on and moving at 0.1 Hz, unmodified Mozart's Jupiter",46.0,0.04209657814467201
-648,"VR environment on and moving at 0.1 Hz, unmodified Mozart's Jupiter",47.0,0.04545360190231286
-649,"VR environment on and moving at 0.1 Hz, unmodified Mozart's Jupiter",48.0,0.04629861304864729
-650,"VR environment on and moving at 0.1 Hz, unmodified Mozart's Jupiter",49.0,0.04601029901879278
-651,"VR environment on and moving at 0.1 Hz, unmodified Mozart's Jupiter",50.0,0.04567271176407622
-652,"VR environment on and moving at 0.1 Hz, unmodified Mozart's Jupiter",51.0,0.04499220901536075
-653,"VR environment on and moving at 0.1 Hz, unmodified Mozart's Jupiter",52.0,0.04280991191388666
-654,"VR environment on and moving at 0.1 Hz, unmodified Mozart's Jupiter",53.0,0.04348662450907042
-655,"VR environment on and moving at 0.1 Hz, unmodified Mozart's Jupiter",54.0,0.04176986341255464
-656,"VR environment on and moving at 0.1 Hz, unmodified Mozart's Jupiter",55.0,0.041972445077140874
-657,"VR environment on and moving at 0.1 Hz, unmodified Mozart's Jupiter",56.0,0.043237719418975286
-658,"VR environment on and moving at 0.1 Hz, unmodified Mozart's Jupiter",57.0,0.043294980175900555
-659,"VR environment on and moving at 0.1 Hz, unmodified Mozart's Jupiter",58.0,0.04572926911131115
-660,"VR environment on and moving at 0.1 Hz, unmodified Mozart's Jupiter",59.0,0.04747606164508889
+421,"VR environment on, Mozart's Jupiter with loudness shifted at 0.1Hz",0.0,0.04514244294744551
+422,"VR environment on, Mozart's Jupiter with loudness shifted at 0.1Hz",1.0,0.046149744665678394
+423,"VR environment on, Mozart's Jupiter with loudness shifted at 0.1Hz",2.0,0.04525797343138173
+424,"VR environment on, Mozart's Jupiter with loudness shifted at 0.1Hz",3.0,0.04546800492306087
+425,"VR environment on, Mozart's Jupiter with loudness shifted at 0.1Hz",4.0,0.04521478273957478
+426,"VR environment on, Mozart's Jupiter with loudness shifted at 0.1Hz",5.0,0.04549199181046028
+427,"VR environment on, Mozart's Jupiter with loudness shifted at 0.1Hz",6.0,0.045937666183791324
+428,"VR environment on, Mozart's Jupiter with loudness shifted at 0.1Hz",7.0,0.04586641125822888
+429,"VR environment on, Mozart's Jupiter with loudness shifted at 0.1Hz",8.0,0.04564603075170642
+430,"VR environment on, Mozart's Jupiter with loudness shifted at 0.1Hz",9.0,0.04505231212977726
+431,"VR environment on, Mozart's Jupiter with loudness shifted at 0.1Hz",10.0,0.04604199228565125
+432,"VR environment on, Mozart's Jupiter with loudness shifted at 0.1Hz",11.0,0.0462587530573414
+433,"VR environment on, Mozart's Jupiter with loudness shifted at 0.1Hz",12.0,0.04572296372577417
+434,"VR environment on, Mozart's Jupiter with loudness shifted at 0.1Hz",13.0,0.04451003691675278
+435,"VR environment on, Mozart's Jupiter with loudness shifted at 0.1Hz",14.0,0.04415644980078537
+436,"VR environment on, Mozart's Jupiter with loudness shifted at 0.1Hz",15.0,0.04495010259599487
+437,"VR environment on, Mozart's Jupiter with loudness shifted at 0.1Hz",16.0,0.046194901716318425
+438,"VR environment on, Mozart's Jupiter with loudness shifted at 0.1Hz",17.0,0.047155893864172224
+439,"VR environment on, Mozart's Jupiter with loudness shifted at 0.1Hz",18.0,0.045654566394778766
+440,"VR environment on, Mozart's Jupiter with loudness shifted at 0.1Hz",19.0,0.0463745631294338
+441,"VR environment on, Mozart's Jupiter with loudness shifted at 0.1Hz",20.0,0.045385360307688916
+442,"VR environment on, Mozart's Jupiter with loudness shifted at 0.1Hz",21.0,0.045783736877460963
+443,"VR environment on, Mozart's Jupiter with loudness shifted at 0.1Hz",22.0,0.045844865286715594
+444,"VR environment on, Mozart's Jupiter with loudness shifted at 0.1Hz",23.0,0.04471020938144276
+445,"VR environment on, Mozart's Jupiter with loudness shifted at 0.1Hz",24.0,0.046072391620681157
+446,"VR environment on, Mozart's Jupiter with loudness shifted at 0.1Hz",25.0,0.046674523920693
+447,"VR environment on, Mozart's Jupiter with loudness shifted at 0.1Hz",26.0,0.04766919815092805
+448,"VR environment on, Mozart's Jupiter with loudness shifted at 0.1Hz",27.0,0.051760547854330964
+449,"VR environment on, Mozart's Jupiter with loudness shifted at 0.1Hz",28.0,0.045991773998061425
+450,"VR environment on, Mozart's Jupiter with loudness shifted at 0.1Hz",29.0,0.046810292033893884
+451,"VR environment on, Mozart's Jupiter with loudness shifted at 0.1Hz",30.0,0.045999395493222406
+452,"VR environment on, Mozart's Jupiter with loudness shifted at 0.1Hz",31.0,0.04614395435275091
+453,"VR environment on, Mozart's Jupiter with loudness shifted at 0.1Hz",32.0,0.04556007142181611
+454,"VR environment on, Mozart's Jupiter with loudness shifted at 0.1Hz",33.0,0.0473945410915958
+455,"VR environment on, Mozart's Jupiter with loudness shifted at 0.1Hz",34.0,0.04783879048243502
+456,"VR environment on, Mozart's Jupiter with loudness shifted at 0.1Hz",35.0,0.048930389485799586
+457,"VR environment on, Mozart's Jupiter with loudness shifted at 0.1Hz",36.0,0.047744039121571734
+458,"VR environment on, Mozart's Jupiter with loudness shifted at 0.1Hz",37.0,0.04989406888271004
+459,"VR environment on, Mozart's Jupiter with loudness shifted at 0.1Hz",38.0,0.048002780670394964
+460,"VR environment on, Mozart's Jupiter with loudness shifted at 0.1Hz",39.0,0.04791900447463806
+461,"VR environment on, Mozart's Jupiter with loudness shifted at 0.1Hz",40.0,0.048196274573838696
+462,"VR environment on, Mozart's Jupiter with loudness shifted at 0.1Hz",41.0,0.049289957208939986
+463,"VR environment on, Mozart's Jupiter with loudness shifted at 0.1Hz",42.0,0.0473021124206671
+464,"VR environment on, Mozart's Jupiter with loudness shifted at 0.1Hz",43.0,0.048463033127689056
+465,"VR environment on, Mozart's Jupiter with loudness shifted at 0.1Hz",44.0,0.04926879245638834
+466,"VR environment on, Mozart's Jupiter with loudness shifted at 0.1Hz",45.0,0.05059395982470596
+467,"VR environment on, Mozart's Jupiter with loudness shifted at 0.1Hz",46.0,0.05054686828350014
+468,"VR environment on, Mozart's Jupiter with loudness shifted at 0.1Hz",47.0,0.04846424183831804
+469,"VR environment on, Mozart's Jupiter with loudness shifted at 0.1Hz",48.0,0.048032189381392795
+470,"VR environment on, Mozart's Jupiter with loudness shifted at 0.1Hz",49.0,0.0475223794392103
+471,"VR environment on, Mozart's Jupiter with loudness shifted at 0.1Hz",50.0,0.04764605355808238
+472,"VR environment on, Mozart's Jupiter with loudness shifted at 0.1Hz",51.0,0.04867874614525428
+473,"VR environment on, Mozart's Jupiter with loudness shifted at 0.1Hz",52.0,0.04743328520032535
+474,"VR environment on, Mozart's Jupiter with loudness shifted at 0.1Hz",53.0,0.046890222392458145
+475,"VR environment on, Mozart's Jupiter with loudness shifted at 0.1Hz",54.0,0.046131053449175556
+476,"VR environment on, Mozart's Jupiter with loudness shifted at 0.1Hz",55.0,0.04765396351113368
+477,"VR environment on, Mozart's Jupiter with loudness shifted at 0.1Hz",56.0,0.048068053598775425
+478,"VR environment on, Mozart's Jupiter with loudness shifted at 0.1Hz",57.0,0.049651907290220086
+479,"VR environment on, Mozart's Jupiter with loudness shifted at 0.1Hz",58.0,0.04953272104183837
+480,"VR environment on, Mozart's Jupiter with loudness shifted at 0.1Hz",59.0,0.04954428300820362
+481,"VR environment on, Mozart's Jupiter with loudness shifted at 0.25Hz",0.0,0.042089859431580876
+482,"VR environment on, Mozart's Jupiter with loudness shifted at 0.25Hz",1.0,0.0407561257564767
+483,"VR environment on, Mozart's Jupiter with loudness shifted at 0.25Hz",2.0,0.04128401111014326
+484,"VR environment on, Mozart's Jupiter with loudness shifted at 0.25Hz",3.0,0.04109481684080877
+485,"VR environment on, Mozart's Jupiter with loudness shifted at 0.25Hz",4.0,0.04240932585296182
+486,"VR environment on, Mozart's Jupiter with loudness shifted at 0.25Hz",5.0,0.041597366545845955
+487,"VR environment on, Mozart's Jupiter with loudness shifted at 0.25Hz",6.0,0.04294657837596657
+488,"VR environment on, Mozart's Jupiter with loudness shifted at 0.25Hz",7.0,0.04314252904550794
+489,"VR environment on, Mozart's Jupiter with loudness shifted at 0.25Hz",8.0,0.04350185905619968
+490,"VR environment on, Mozart's Jupiter with loudness shifted at 0.25Hz",9.0,0.04283587804698062
+491,"VR environment on, Mozart's Jupiter with loudness shifted at 0.25Hz",10.0,0.043865927316256215
+492,"VR environment on, Mozart's Jupiter with loudness shifted at 0.25Hz",11.0,0.04384937248774785
+493,"VR environment on, Mozart's Jupiter with loudness shifted at 0.25Hz",12.0,0.041760603412253385
+494,"VR environment on, Mozart's Jupiter with loudness shifted at 0.25Hz",13.0,0.042669227653789
+495,"VR environment on, Mozart's Jupiter with loudness shifted at 0.25Hz",14.0,0.04240911388384448
+496,"VR environment on, Mozart's Jupiter with loudness shifted at 0.25Hz",15.0,0.043707570306384426
+497,"VR environment on, Mozart's Jupiter with loudness shifted at 0.25Hz",16.0,0.04311268420043562
+498,"VR environment on, Mozart's Jupiter with loudness shifted at 0.25Hz",17.0,0.04199686196077475
+499,"VR environment on, Mozart's Jupiter with loudness shifted at 0.25Hz",18.0,0.04377570360310106
+500,"VR environment on, Mozart's Jupiter with loudness shifted at 0.25Hz",19.0,0.042785254230969405
+501,"VR environment on, Mozart's Jupiter with loudness shifted at 0.25Hz",20.0,0.04290690805516142
+502,"VR environment on, Mozart's Jupiter with loudness shifted at 0.25Hz",21.0,0.043398023299511944
+503,"VR environment on, Mozart's Jupiter with loudness shifted at 0.25Hz",22.0,0.04383494141752471
+504,"VR environment on, Mozart's Jupiter with loudness shifted at 0.25Hz",23.0,0.043979189223779844
+505,"VR environment on, Mozart's Jupiter with loudness shifted at 0.25Hz",24.0,0.04327443855650381
+506,"VR environment on, Mozart's Jupiter with loudness shifted at 0.25Hz",25.0,0.04353735738020475
+507,"VR environment on, Mozart's Jupiter with loudness shifted at 0.25Hz",26.0,0.042988841697381146
+508,"VR environment on, Mozart's Jupiter with loudness shifted at 0.25Hz",27.0,0.043643017368857985
+509,"VR environment on, Mozart's Jupiter with loudness shifted at 0.25Hz",28.0,0.042286088391966584
+510,"VR environment on, Mozart's Jupiter with loudness shifted at 0.25Hz",29.0,0.04292287256400133
+511,"VR environment on, Mozart's Jupiter with loudness shifted at 0.25Hz",30.0,0.043695047003039125
+512,"VR environment on, Mozart's Jupiter with loudness shifted at 0.25Hz",31.0,0.042734052530117854
+513,"VR environment on, Mozart's Jupiter with loudness shifted at 0.25Hz",32.0,0.04288419076412007
+514,"VR environment on, Mozart's Jupiter with loudness shifted at 0.25Hz",33.0,0.043528738298673444
+515,"VR environment on, Mozart's Jupiter with loudness shifted at 0.25Hz",34.0,0.04271904791569296
+516,"VR environment on, Mozart's Jupiter with loudness shifted at 0.25Hz",35.0,0.04246952525812202
+517,"VR environment on, Mozart's Jupiter with loudness shifted at 0.25Hz",36.0,0.043406111404622784
+518,"VR environment on, Mozart's Jupiter with loudness shifted at 0.25Hz",37.0,0.044012086963842345
+519,"VR environment on, Mozart's Jupiter with loudness shifted at 0.25Hz",38.0,0.043642879828268984
+520,"VR environment on, Mozart's Jupiter with loudness shifted at 0.25Hz",39.0,0.04244935925165011
+521,"VR environment on, Mozart's Jupiter with loudness shifted at 0.25Hz",40.0,0.043596222342366604
+522,"VR environment on, Mozart's Jupiter with loudness shifted at 0.25Hz",41.0,0.044917012567475496
+523,"VR environment on, Mozart's Jupiter with loudness shifted at 0.25Hz",42.0,0.044680438987060346
+524,"VR environment on, Mozart's Jupiter with loudness shifted at 0.25Hz",43.0,0.043372572895088876
+525,"VR environment on, Mozart's Jupiter with loudness shifted at 0.25Hz",44.0,0.04442406649425053
+526,"VR environment on, Mozart's Jupiter with loudness shifted at 0.25Hz",45.0,0.04349189136590128
+527,"VR environment on, Mozart's Jupiter with loudness shifted at 0.25Hz",46.0,0.04302818304070404
+528,"VR environment on, Mozart's Jupiter with loudness shifted at 0.25Hz",47.0,0.04227312503886072
+529,"VR environment on, Mozart's Jupiter with loudness shifted at 0.25Hz",48.0,0.04182707969597171
+530,"VR environment on, Mozart's Jupiter with loudness shifted at 0.25Hz",49.0,0.04368173431363163
+531,"VR environment on, Mozart's Jupiter with loudness shifted at 0.25Hz",50.0,0.04230857614471223
+532,"VR environment on, Mozart's Jupiter with loudness shifted at 0.25Hz",51.0,0.0419173064990696
+533,"VR environment on, Mozart's Jupiter with loudness shifted at 0.25Hz",52.0,0.04263662550798023
+534,"VR environment on, Mozart's Jupiter with loudness shifted at 0.25Hz",53.0,0.04252726174071728
+535,"VR environment on, Mozart's Jupiter with loudness shifted at 0.25Hz",54.0,0.043014103736838116
+536,"VR environment on, Mozart's Jupiter with loudness shifted at 0.25Hz",55.0,0.04320715071460674
+537,"VR environment on, Mozart's Jupiter with loudness shifted at 0.25Hz",56.0,0.04391582124707303
+538,"VR environment on, Mozart's Jupiter with loudness shifted at 0.25Hz",57.0,0.04251076183115613
+539,"VR environment on, Mozart's Jupiter with loudness shifted at 0.25Hz",58.0,0.043511175854994935
+540,"VR environment on, Mozart's Jupiter with loudness shifted at 0.25Hz",59.0,0.04210266696750411
+541,"VR environment on, no music",0.0,0.044353358057758474
+542,"VR environment on, no music",1.0,0.049723325520085224
+543,"VR environment on, no music",2.0,0.04508904256575924
+544,"VR environment on, no music",3.0,0.04363193839700426
+545,"VR environment on, no music",4.0,0.04414562009270472
+546,"VR environment on, no music",5.0,0.04445358522251164
+547,"VR environment on, no music",6.0,0.043885964370360506
+548,"VR environment on, no music",7.0,0.044696070574549114
+549,"VR environment on, no music",8.0,0.04472171223522169
+550,"VR environment on, no music",9.0,0.0450388360106373
+551,"VR environment on, no music",10.0,0.04475796598353836
+552,"VR environment on, no music",11.0,0.043803172935049116
+553,"VR environment on, no music",12.0,0.04423156732498306
+554,"VR environment on, no music",13.0,0.04390075648028264
+555,"VR environment on, no music",14.0,0.04475826006761725
+556,"VR environment on, no music",15.0,0.044623574299013626
+557,"VR environment on, no music",16.0,0.04265279917884596
+558,"VR environment on, no music",17.0,0.04370286549638563
+559,"VR environment on, no music",18.0,0.04346010329592618
+560,"VR environment on, no music",19.0,0.04349291104172347
+561,"VR environment on, no music",20.0,0.04415825943795961
+562,"VR environment on, no music",21.0,0.044882095568059555
+563,"VR environment on, no music",22.0,0.04522187558494854
+564,"VR environment on, no music",23.0,0.04413115518044068
+565,"VR environment on, no music",24.0,0.04431396020823505
+566,"VR environment on, no music",25.0,0.045355918971176044
+567,"VR environment on, no music",26.0,0.0437677552383799
+568,"VR environment on, no music",27.0,0.043466555978570985
+569,"VR environment on, no music",28.0,0.043854153023426656
+570,"VR environment on, no music",29.0,0.045624735680143795
+571,"VR environment on, no music",30.0,0.04571491334500558
+572,"VR environment on, no music",31.0,0.04348558516426389
+573,"VR environment on, no music",32.0,0.043444347740355174
+574,"VR environment on, no music",33.0,0.044383866131810536
+575,"VR environment on, no music",34.0,0.04682493807536231
+576,"VR environment on, no music",35.0,0.04831823645742718
+577,"VR environment on, no music",36.0,0.04668152961255819
+578,"VR environment on, no music",37.0,0.045982513646032334
+579,"VR environment on, no music",38.0,0.047514793596963624
+580,"VR environment on, no music",39.0,0.0482459494496472
+581,"VR environment on, no music",40.0,0.04879753949078305
+582,"VR environment on, no music",41.0,0.046985084209261695
+583,"VR environment on, no music",42.0,0.046910732669275514
+584,"VR environment on, no music",43.0,0.046910381981066965
+585,"VR environment on, no music",44.0,0.04586322023483861
+586,"VR environment on, no music",45.0,0.04580913567907434
+587,"VR environment on, no music",46.0,0.045239600766298474
+588,"VR environment on, no music",47.0,0.04662240666959043
+589,"VR environment on, no music",48.0,0.04535838509891428
+590,"VR environment on, no music",49.0,0.044361264437336456
+591,"VR environment on, no music",50.0,0.046219358050643915
+592,"VR environment on, no music",51.0,0.046309446433953246
+593,"VR environment on, no music",52.0,0.044952564032871914
+594,"VR environment on, no music",53.0,0.04671222337972343
+595,"VR environment on, no music",54.0,0.046422490476237026
+596,"VR environment on, no music",55.0,0.047275251483581596
+597,"VR environment on, no music",56.0,0.047799576572120216
+598,"VR environment on, no music",57.0,0.0444876654437565
+599,"VR environment on, no music",58.0,0.04471895988987016
+600,"VR environment on, no music",59.0,0.04600841126157778
+601,"VR environment on, unmodified Mozart's Jupiter",0.0,0.04612600455781508
+602,"VR environment on, unmodified Mozart's Jupiter",1.0,0.04687234864182194
+603,"VR environment on, unmodified Mozart's Jupiter",2.0,0.04704664254401337
+604,"VR environment on, unmodified Mozart's Jupiter",3.0,0.04559591362044179
+605,"VR environment on, unmodified Mozart's Jupiter",4.0,0.04619008565013845
+606,"VR environment on, unmodified Mozart's Jupiter",5.0,0.047654367806364895
+607,"VR environment on, unmodified Mozart's Jupiter",6.0,0.04768349692099825
+608,"VR environment on, unmodified Mozart's Jupiter",7.0,0.04704248878071081
+609,"VR environment on, unmodified Mozart's Jupiter",8.0,0.047922652021732806
+610,"VR environment on, unmodified Mozart's Jupiter",9.0,0.047524180997665665
+611,"VR environment on, unmodified Mozart's Jupiter",10.0,0.04843456487161919
+612,"VR environment on, unmodified Mozart's Jupiter",11.0,0.049020434216910165
+613,"VR environment on, unmodified Mozart's Jupiter",12.0,0.049370365833365175
+614,"VR environment on, unmodified Mozart's Jupiter",13.0,0.04805709946934712
+615,"VR environment on, unmodified Mozart's Jupiter",14.0,0.047711682395296065
+616,"VR environment on, unmodified Mozart's Jupiter",15.0,0.04852021546663564
+617,"VR environment on, unmodified Mozart's Jupiter",16.0,0.04767544774404763
+618,"VR environment on, unmodified Mozart's Jupiter",17.0,0.04770296680221425
+619,"VR environment on, unmodified Mozart's Jupiter",18.0,0.04649120652947527
+620,"VR environment on, unmodified Mozart's Jupiter",19.0,0.04986812908583981
+621,"VR environment on, unmodified Mozart's Jupiter",20.0,0.050025600433111876
+622,"VR environment on, unmodified Mozart's Jupiter",21.0,0.04945225526802417
+623,"VR environment on, unmodified Mozart's Jupiter",22.0,0.048795929467057485
+624,"VR environment on, unmodified Mozart's Jupiter",23.0,0.048757076031771006
+625,"VR environment on, unmodified Mozart's Jupiter",24.0,0.04817723774802791
+626,"VR environment on, unmodified Mozart's Jupiter",25.0,0.0497038041349634
+627,"VR environment on, unmodified Mozart's Jupiter",26.0,0.05077425184115653
+628,"VR environment on, unmodified Mozart's Jupiter",27.0,0.05009490182587104
+629,"VR environment on, unmodified Mozart's Jupiter",28.0,0.04936857191935732
+630,"VR environment on, unmodified Mozart's Jupiter",29.0,0.04956866172832514
+631,"VR environment on, unmodified Mozart's Jupiter",30.0,0.04782383754712528
+632,"VR environment on, unmodified Mozart's Jupiter",31.0,0.04814943557867386
+633,"VR environment on, unmodified Mozart's Jupiter",32.0,0.047055597602082985
+634,"VR environment on, unmodified Mozart's Jupiter",33.0,0.04742212177364954
+635,"VR environment on, unmodified Mozart's Jupiter",34.0,0.04782030598034253
+636,"VR environment on, unmodified Mozart's Jupiter",35.0,0.04584610871075662
+637,"VR environment on, unmodified Mozart's Jupiter",36.0,0.04571943051218279
+638,"VR environment on, unmodified Mozart's Jupiter",37.0,0.0462277400192345
+639,"VR environment on, unmodified Mozart's Jupiter",38.0,0.044882318129914674
+640,"VR environment on, unmodified Mozart's Jupiter",39.0,0.0459173592257063
+641,"VR environment on, unmodified Mozart's Jupiter",40.0,0.04739855247167102
+642,"VR environment on, unmodified Mozart's Jupiter",41.0,0.04712157747987552
+643,"VR environment on, unmodified Mozart's Jupiter",42.0,0.047975494658961344
+644,"VR environment on, unmodified Mozart's Jupiter",43.0,0.0470704297250231
+645,"VR environment on, unmodified Mozart's Jupiter",44.0,0.04759223303673251
+646,"VR environment on, unmodified Mozart's Jupiter",45.0,0.04547493384032118
+647,"VR environment on, unmodified Mozart's Jupiter",46.0,0.045378976690671737
+648,"VR environment on, unmodified Mozart's Jupiter",47.0,0.04589807041394495
+649,"VR environment on, unmodified Mozart's Jupiter",48.0,0.04711951866313875
+650,"VR environment on, unmodified Mozart's Jupiter",49.0,0.046620597377433494
+651,"VR environment on, unmodified Mozart's Jupiter",50.0,0.0465094553239753
+652,"VR environment on, unmodified Mozart's Jupiter",51.0,0.04806272400125782
+653,"VR environment on, unmodified Mozart's Jupiter",52.0,0.046906769682105144
+654,"VR environment on, unmodified Mozart's Jupiter",53.0,0.048532129958789895
+655,"VR environment on, unmodified Mozart's Jupiter",54.0,0.047319903343177705
+656,"VR environment on, unmodified Mozart's Jupiter",55.0,0.046303030919227425
+657,"VR environment on, unmodified Mozart's Jupiter",56.0,0.04664338051856824
+658,"VR environment on, unmodified Mozart's Jupiter",57.0,0.046506005590409
+659,"VR environment on, unmodified Mozart's Jupiter",58.0,0.04582034657507546
+660,"VR environment on, unmodified Mozart's Jupiter",59.0,0.04590151601551183
+661,"VR environment on and moving at 0.1 Hz, unmodified Mozart's Jupiter",0.0,0.043747704752067296
+662,"VR environment on and moving at 0.1 Hz, unmodified Mozart's Jupiter",1.0,0.041948765533915654
+663,"VR environment on and moving at 0.1 Hz, unmodified Mozart's Jupiter",2.0,0.04141031367453875
+664,"VR environment on and moving at 0.1 Hz, unmodified Mozart's Jupiter",3.0,0.0395595082332411
+665,"VR environment on and moving at 0.1 Hz, unmodified Mozart's Jupiter",4.0,0.03773549229790533
+666,"VR environment on and moving at 0.1 Hz, unmodified Mozart's Jupiter",5.0,0.03976533376320808
+667,"VR environment on and moving at 0.1 Hz, unmodified Mozart's Jupiter",6.0,0.04258515034966826
+668,"VR environment on and moving at 0.1 Hz, unmodified Mozart's Jupiter",7.0,0.04333814543841208
+669,"VR environment on and moving at 0.1 Hz, unmodified Mozart's Jupiter",8.0,0.045007657051922965
+670,"VR environment on and moving at 0.1 Hz, unmodified Mozart's Jupiter",9.0,0.043088603377251074
+671,"VR environment on and moving at 0.1 Hz, unmodified Mozart's Jupiter",10.0,0.04548276100398134
+672,"VR environment on and moving at 0.1 Hz, unmodified Mozart's Jupiter",11.0,0.04184686609392147
+673,"VR environment on and moving at 0.1 Hz, unmodified Mozart's Jupiter",12.0,0.038482076759323344
+674,"VR environment on and moving at 0.1 Hz, unmodified Mozart's Jupiter",13.0,0.038978931168506106
+675,"VR environment on and moving at 0.1 Hz, unmodified Mozart's Jupiter",14.0,0.04003874680185382
+676,"VR environment on and moving at 0.1 Hz, unmodified Mozart's Jupiter",15.0,0.03937422883443698
+677,"VR environment on and moving at 0.1 Hz, unmodified Mozart's Jupiter",16.0,0.03948961583268069
+678,"VR environment on and moving at 0.1 Hz, unmodified Mozart's Jupiter",17.0,0.043500061231612
+679,"VR environment on and moving at 0.1 Hz, unmodified Mozart's Jupiter",18.0,0.04597556518891942
+680,"VR environment on and moving at 0.1 Hz, unmodified Mozart's Jupiter",19.0,0.044932729986064346
+681,"VR environment on and moving at 0.1 Hz, unmodified Mozart's Jupiter",20.0,0.04574249744154135
+682,"VR environment on and moving at 0.1 Hz, unmodified Mozart's Jupiter",21.0,0.04375487353793028
+683,"VR environment on and moving at 0.1 Hz, unmodified Mozart's Jupiter",22.0,0.04242589022522557
+684,"VR environment on and moving at 0.1 Hz, unmodified Mozart's Jupiter",23.0,0.040139812015700015
+685,"VR environment on and moving at 0.1 Hz, unmodified Mozart's Jupiter",24.0,0.039862045499013725
+686,"VR environment on and moving at 0.1 Hz, unmodified Mozart's Jupiter",25.0,0.040355521093870465
+687,"VR environment on and moving at 0.1 Hz, unmodified Mozart's Jupiter",26.0,0.0420424469287326
+688,"VR environment on and moving at 0.1 Hz, unmodified Mozart's Jupiter",27.0,0.04368912345833522
+689,"VR environment on and moving at 0.1 Hz, unmodified Mozart's Jupiter",28.0,0.045051520827761316
+690,"VR environment on and moving at 0.1 Hz, unmodified Mozart's Jupiter",29.0,0.04683393678687342
+691,"VR environment on and moving at 0.1 Hz, unmodified Mozart's Jupiter",30.0,0.04496421648158087
+692,"VR environment on and moving at 0.1 Hz, unmodified Mozart's Jupiter",31.0,0.04389425654033013
+693,"VR environment on and moving at 0.1 Hz, unmodified Mozart's Jupiter",32.0,0.04093453389976538
+694,"VR environment on and moving at 0.1 Hz, unmodified Mozart's Jupiter",33.0,0.04044713749026994
+695,"VR environment on and moving at 0.1 Hz, unmodified Mozart's Jupiter",34.0,0.04055754661154981
+696,"VR environment on and moving at 0.1 Hz, unmodified Mozart's Jupiter",35.0,0.040168232943695655
+697,"VR environment on and moving at 0.1 Hz, unmodified Mozart's Jupiter",36.0,0.04254987856949368
+698,"VR environment on and moving at 0.1 Hz, unmodified Mozart's Jupiter",37.0,0.04579518232099826
+699,"VR environment on and moving at 0.1 Hz, unmodified Mozart's Jupiter",38.0,0.04714270073836384
+700,"VR environment on and moving at 0.1 Hz, unmodified Mozart's Jupiter",39.0,0.04615811756620054
+701,"VR environment on and moving at 0.1 Hz, unmodified Mozart's Jupiter",40.0,0.0455959085949052
+702,"VR environment on and moving at 0.1 Hz, unmodified Mozart's Jupiter",41.0,0.043819896194115464
+703,"VR environment on and moving at 0.1 Hz, unmodified Mozart's Jupiter",42.0,0.04104297508450539
+704,"VR environment on and moving at 0.1 Hz, unmodified Mozart's Jupiter",43.0,0.04238575386804461
+705,"VR environment on and moving at 0.1 Hz, unmodified Mozart's Jupiter",44.0,0.041958108723263464
+706,"VR environment on and moving at 0.1 Hz, unmodified Mozart's Jupiter",45.0,0.04203505776615322
+707,"VR environment on and moving at 0.1 Hz, unmodified Mozart's Jupiter",46.0,0.04209657814467201
+708,"VR environment on and moving at 0.1 Hz, unmodified Mozart's Jupiter",47.0,0.04545360190231286
+709,"VR environment on and moving at 0.1 Hz, unmodified Mozart's Jupiter",48.0,0.04629861304864729
+710,"VR environment on and moving at 0.1 Hz, unmodified Mozart's Jupiter",49.0,0.04601029901879278
+711,"VR environment on and moving at 0.1 Hz, unmodified Mozart's Jupiter",50.0,0.04567271176407622
+712,"VR environment on and moving at 0.1 Hz, unmodified Mozart's Jupiter",51.0,0.04499220901536075
+713,"VR environment on and moving at 0.1 Hz, unmodified Mozart's Jupiter",52.0,0.04280991191388666
+714,"VR environment on and moving at 0.1 Hz, unmodified Mozart's Jupiter",53.0,0.04348662450907042
+715,"VR environment on and moving at 0.1 Hz, unmodified Mozart's Jupiter",54.0,0.04176986341255464
+716,"VR environment on and moving at 0.1 Hz, unmodified Mozart's Jupiter",55.0,0.041972445077140874
+717,"VR environment on and moving at 0.1 Hz, unmodified Mozart's Jupiter",56.0,0.043237719418975286
+718,"VR environment on and moving at 0.1 Hz, unmodified Mozart's Jupiter",57.0,0.043294980175900555
+719,"VR environment on and moving at 0.1 Hz, unmodified Mozart's Jupiter",58.0,0.04572926911131115
+720,"VR environment on and moving at 0.1 Hz, unmodified Mozart's Jupiter",59.0,0.04747606164508889

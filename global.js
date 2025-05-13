@@ -180,17 +180,15 @@
 
     function updatePairLabel() {
     const selectedPairLabel = pairs[currentPairIndex].label;
-    console.log(selectedPairLabel)
     document.getElementById('pairLabel').textContent = selectedPairLabel;
     d3.select("#pairSelect").property("value", selectedPairLabel); // Sync dropdown
     }
 
     function updateSwayData() {
     const selectedPair = pairs[currentPairIndex].categories;
-    console.log(selectedPair);
     swayData1 = data.filter(d => d.Description === convert_descriptions.get(selectedPair[0]));
-    swayData2 = data.filter(d => d.Description === convert_descriptions.get(selectedPair[1]));
     console.log(swayData1);
+    swayData2 = data.filter(d => d.Description === convert_descriptions.get(selectedPair[1]));
     clearInterval(animationTimer);
     currentIndex = 0;
     }
@@ -258,7 +256,7 @@
         drawHuman(centerX2, offsetX2, offsetY2, body2, head2, leftArm2, rightArm2, leftLeg2, rightLeg2, hoverZone2);
 
         currentIndex++;
-      }, 30);
+      }, 50);
     }
 
     const tooltip = d3.select("#tooltip");
@@ -387,7 +385,7 @@
         drawStep(step);
         step++;
 
-        }, 1000);
+        }, 50);
     }
 
     document.getElementById("play").onclick = () => {
