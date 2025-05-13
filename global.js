@@ -156,7 +156,7 @@
     convert_descriptions.set("VR environment on, no music", 'WON');
     convert_descriptions.set("VR environment on, unmodified Mozart's Jupiter", 'WOR');
 
-    let animationSpeedFactor = 1;
+    let animationSpeedFactor = 10;
 
     d3.csv("data/swapped.csv").then(data => {
     
