@@ -87,11 +87,7 @@
     // Update the human figures
     updateSwayData();
     updatePairLabel();
-    if (isPlaying) {
-        animateHumans();
-    } else {
-        drawCurrentFigures();
-    }
+    drawCurrentFigures();
     
     // Update the line graph
     step = 0;
@@ -107,11 +103,7 @@
     // Update the human figures
     updateSwayData();
     updatePairLabel();
-    if (isPlaying) {
-        animateHumans();
-    } else {
-        drawCurrentFigures();
-    }
+    drawCurrentFigures();
     
     // Update the line graph
     step = 0;
@@ -131,7 +123,7 @@
     const svg2 = d3.select("#svg2");
     const width2 = +svg2.attr("width") - 60;
     const height2 = +svg2.attr("height") - 60;
-    const margin = { top: 40, right: 40, bottom: 60, left: 70 };
+    const margin = { top: 30, right: 30, bottom: 50, left: 60 };
 
     let xScale = d3.scaleLinear().domain([0, 59]).range([margin.left, width2]);
     let yScale = d3.scaleLinear().range([height2, margin.top]);
@@ -163,6 +155,8 @@
     convert_descriptions.set("VR environment on, Mozart's Jupiter with loudness shifted at 0.25Hz", 'WOL2');
     convert_descriptions.set("VR environment on, no music", 'WON');
     convert_descriptions.set("VR environment on, unmodified Mozart's Jupiter", 'WOR');
+
+    let animationSpeedFactor = 1;
 
     d3.csv("data/swapped.csv").then(data => {
     
@@ -240,7 +234,7 @@
       clearInterval(animationTimer);
       animationTimer = setInterval(() => {
         if (currentIndex >= swayData1.length || currentIndex >= swayData2.length) {
-          currentIndex = 0;
+        return;
         }
 
         const d1 = swayData1[currentIndex];
@@ -256,7 +250,7 @@
         drawHuman(centerX2, offsetX2, offsetY2, body2, head2, leftArm2, rightArm2, leftLeg2, rightLeg2, hoverZone2);
 
         currentIndex++;
-      }, 50);
+      }, 1000 / animationSpeedFactor);
     }
 
     const tooltip = d3.select("#tooltip");
@@ -410,7 +404,7 @@
         drawStep(step);
         step++;
 
-        }, 50);
+        }, 1000 / animationSpeedFactor);
     }
 
     document.getElementById("play").onclick = () => {
@@ -502,3 +496,16 @@
     currentIndex = Math.max(swayData1.length, swayData2.length) - 1;
     drawCurrentFigures();
     };
+
+    d3.select("#speedSelect").on("change", function () {
+    animationSpeedFactor = parseFloat(this.value);
+
+    if (isPlaying) {
+        // Restart animations with the new speed
+        clearInterval(animationTimer);
+        clearInterval(intervalId);
+        animateHumans();
+        startAnimation();
+    }
+    });
+    
