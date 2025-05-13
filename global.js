@@ -98,6 +98,29 @@ const pairs = {
       .attr("stroke", (d, i) => color[i])
       .attr("stroke-width", 2)
       .attr("fill", "none");
+
+    // Create HTML legend outside of SVG
+    const legendContainer = d3.select("#legend");
+    legendContainer.html(""); // clear existing legend
+
+    const labels = pairs[pairKey];
+
+    labels.forEach((label, i) => {
+    const item = legendContainer.append("div")
+        .style("display", "flex")
+        .style("align-items", "center")
+        .style("margin-bottom", "8px");
+
+    item.append("div")
+        .style("width", "12px")
+        .style("height", "12px")
+        .style("background-color", color[i])
+        .style("margin-right", "8px");
+
+    item.append("div")
+        .text(label)
+        .style("font-size", "14px");
+    });
   }
 
    function drawStep(step) {
@@ -119,7 +142,7 @@ const pairs = {
 
     drawStep(step);
     step++;
-    
+
     }, 1000);
   }
 
