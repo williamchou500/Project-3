@@ -2,35 +2,39 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Body Sway Visualization</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Human Balance Animation - Paired Comparison</title>
+  <link rel="stylesheet" href="style.css">
   <script src="https://d3js.org/d3.v7.min.js"></script>
-  <style>
-    body { font-family: Arial, sans-serif; }
-    .controls { margin-bottom: 20px; }
-    .button { margin-right: 10px; }
-    svg { border: 1px solid #ccc; }
-  </style>
 </head>
 <body>
+  <h1>Compare Body Sway Between Two Conditions</h1>
+  <h2>bla bla bla</h2>
 
-<h1>How much sway does music (or lack of) have on our bodies?</h1>
+  <div class="controls">
+    <div class="arrow" id="leftArrow">◀</div>
+    <div class="pair-label-container">
+      <div class="pair-label" id="pairLabel">ECR vs ECN</div>
+    </div>
+    <div class="arrow" id="rightArrow">▶</div>
+    <button class='button' id="play">▶️ Play</button>
+    <button class='button' id="pause">⏸️ Pause</button>
+    <button class="button" id="restart">🔁 Restart</button>
+    <button class="button" id="skip">Show Full Graph</button>
+  </div>
 
-<div class="controls">
-  <label for="pairSelect">Select Comparison:</label>
-  <select id="pairSelect"></select>
-  <button class="button" id="play">Play</button>
-  <button class="button" id="pause">Pause</button>
-  <button class="button" id="restart">Restart</button>
-  <button class="button" id="skip">Skip</button>
-</div>
+  <svg id= "svg1" width="1000" height="600"></svg>
+  <div id="tooltip" class="tooltip" style="opacity: 0;"></div>
 
 <div style="display: flex; align-items: flex-start;">
-  <svg width="800" height="400"></svg>
+  <svg id = "svg2" width="1000" height="600"></svg>
   <div id="legend" style="margin-left: 20px;"></div>
 </div>
 
 <script type="module">
-  import './global.js';
+  import './global.js'
 </script>
+
+
 </body>
 </html>
