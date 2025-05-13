@@ -36,30 +36,35 @@
       .style("cursor", "pointer");
 
     const gpairs = {
-    "Eyes closed, VR on: unmodified Mozart's Jupiter vs no music": [
-      "Eyes closed, VR environment on, unmodified Mozart's Jupiter",
-      "Eyes closed, VR environment on, no music"
-    ], //ECR vs. ECN
-    "Eyes closed, VR off: Mozart's Jupiter with loudness shifted at 0.1Hz vs 0.25Hz": [
-      "Eyes closed, VR environment off, Mozart's Jupiter with loudness shifted at 0.1Hz",
-      "Eyes closed, VR environment off, Mozart's Jupiter with loudness shifted at 0.25Hz"
-    ], //ECL1 vs. ECL2
-    "VR on: unmodified Mozart's Jupiter vs no music": [
-      "VR environment on, unmodified Mozart's Jupiter",
-      "VR environment on, no music"
-    ], //WOR vs. WON
-    "VR on: 0.1Hz vs 0.25Hz": [
-      "VR environment on, Mozart's Jupiter with loudness shifted at 0.1Hz",
-      "VR environment on, Mozart's Jupiter with loudness shifted at 0.25Hz"
-    ], //WOl1 vs. WOL2
-    "VR translating at 0.1Hz: no music vs unmodified Mozart's Jupiter": [
-      "VR environment on and moving at 0.1 Hz, no music",
-      "VR environment on and moving at 0.1 Hz, unmodified Mozart's Jupiter"
-    ], //WN vs. WR
-    "VR translating at 0.1Hz: Mozart's Jupiter with loudness shifted at 0.1Hz vs 0.25Hz": [
-      "VR environment on and moving at 0.1 Hz, Mozart's Jupiter with loudness shifted at 0.1Hz",
-      "VR environment on and moving at 0.1 Hz, Mozart's Jupiter with loudness shifted at 0.25Hz"
-    ] //WL1 vs. WL2
+    'Mozart vs No Music\nEyes Closed, VR On': [
+        "Eyes closed, VR environment on, unmodified Mozart's Jupiter",
+        "Eyes closed, VR environment on, no music"
+    ], // ECR vs. ECN
+
+    "0.1Hz vs 0.25Hz Mozart\nEyes Closed, No VR": [
+        "Eyes closed, VR environment off, Mozart's Jupiter with loudness shifted at 0.1Hz",
+        "Eyes closed, VR environment off, Mozart's Jupiter with loudness shifted at 0.25Hz"
+    ], // ECL1 vs. ECL2
+
+    "Mozart vs No Music\nVR On": [
+        "VR environment on, unmodified Mozart's Jupiter",
+        "VR environment on, no music"
+    ], // WOR vs. WON
+
+    "0.1Hz vs 0.25Hz Mozart\nVR On": [
+        "VR environment on, Mozart's Jupiter with loudness shifted at 0.1Hz",
+        "VR environment on, Mozart's Jupiter with loudness shifted at 0.25Hz"
+    ], // WOL1 vs. WOL2
+
+    "No Music vs Mozart\nVR Moving at 0.1Hz": [
+        "VR environment on and moving at 0.1 Hz, no music",
+        "VR environment on and moving at 0.1 Hz, unmodified Mozart's Jupiter"
+    ], // WN vs. WR
+
+    "0.1Hz vs 0.25Hz Mozart\nVR Moving at 0.1Hz": [
+        "VR environment on and moving at 0.1 Hz, Mozart's Jupiter with loudness shifted at 0.1Hz",
+        "VR environment on and moving at 0.1 Hz, Mozart's Jupiter with loudness shifted at 0.25Hz"
+    ] // WL1 vs. WL2
     };
 
     const pairs = Object.entries(gpairs).map(([label, categories]) => ({ label, categories }));
@@ -181,7 +186,6 @@
     function updateSwayData() {
     const selectedPair = pairs[currentPairIndex].categories;
     swayData1 = data.filter(d => d.Description === convert_descriptions.get(selectedPair[0]));
-    console.log(swayData1);
     swayData2 = data.filter(d => d.Description === convert_descriptions.get(selectedPair[1]));
     clearInterval(animationTimer);
     currentIndex = 0;
