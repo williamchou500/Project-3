@@ -436,26 +436,6 @@
     step = maxSteps; 
     };
 
-    d3.select("#pairSelect").on("change", function() {
-    const selectedLabel = this.value;
-    
-    // Find the index of the selected pair
-    currentPairIndex = pairs.findIndex(p => p.label === selectedLabel);
-    
-    // Update the human figures
-    updateSwayData();
-    updatePairLabel();
-    if (isPlaying) {
-        animateHumans();
-    } else {
-        drawCurrentFigures();
-    }
-    
-    // Update the line graph
-    step = 0;
-    clearInterval(intervalId);
-    updateGraph(selectedLabel);
-    });
 
     document.getElementById("play").onclick = () => {
     isPlaying = true;
