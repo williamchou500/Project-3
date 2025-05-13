@@ -134,7 +134,7 @@ button:hover {
 }
 
 #legend {
-  background-color: #ffffff;
+  background-color: transparent;
   padding: 10px;
   font-size: 14px;
   width: 400px;
