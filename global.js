@@ -81,7 +81,7 @@ const pairs = {
     currentPair = allData[pairKey];
 
     const flatY = currentPair.flat().map(d => +d["Overall CoP Displacement"]);
-    yScale.domain([d3.min(flatY), d3.max(flatY)]).nice();
+    yScale.domain([d3.min(flatY) - 0.0001, d3.max(flatY) + 0.0001]);
 
     // Axes
     const xAxis = d3.axisBottom(xScale);
