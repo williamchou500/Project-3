@@ -32,18 +32,21 @@
     </select>
   </div>
 
-  <svg id= "svg1" width="1000" height="600"></svg>
+  <div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 30px; margin-top: 20px;">
+    
+    <svg id="svg1" width="1000" height="700"></svg>
+
+    
+    <div style="display: flex; flex-direction: column;">
+      <svg id="svg2" width="1000" height="700"></svg>
+      <div id="legend" style="margin-top: 10px;"></div>
+    </div>
+  </div>
+
   <div id="tooltip" class="tooltip" style="opacity: 0;"></div>
 
-<div style="display: flex; align-items: flex-start;">
-  <svg id = "svg2" width="1000" height="600"></svg>
-  <div id="legend" style="margin-left: 20px;"></div>
-</div>
-
-<script type="module">
-  import './global.js'
-</script>
-
-
+  <script type="module">
+    import './global.js'
+  </script>
 </body>
 </html>
