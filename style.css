@@ -167,5 +167,26 @@ select:hover {
   transform: translateY(-1px);
 }
 
+.overview {
+  text-align: left;
+  margin-bottom: 40px;
+  padding: 20px;
+  background-color: #ffffff;
+  border-left: 4px solid #3498db;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
 
+ul {
+  list-style: disc;
+  margin-left: 20px;
+}
+
+.nested-list {
+  list-style: circle;
+  margin-left: 30px;
+}
+
+strong {
+  color: #2980b9
+}
 
