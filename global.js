@@ -263,15 +263,15 @@
       if (data.length === 0) return 0;
       let sum = 0;
       data.forEach(d => {
-        sum += Math.sqrt(d.CoPx * d.CoPx + d.CoPy * d.CoPy);
+        sum += parseFloat(d['Overall CoP Displacement']);
       });
-      return (sum / data.length * 1000).toFixed(2);
+      return (sum / data.length).toFixed(2);
     }
 
     hoverZone1.on("mouseover", () => {
       const selectedPair = pairs[currentPairIndex].categories;
       tooltip.transition().duration(200).style("opacity", 1);
-      tooltip.html(`<strong>Condition:</strong> ${selectedPair[0]}<br><strong>Average Sway:</strong> ${calculateAverageSway(swayData1)} mm`)
+      tooltip.html(`<strong>Condition:</strong> ${selectedPair[0]}<br><strong>Average Sway:</strong> ${calculateAverageSway(currentPair[0])} mm`)
              .style("left", (centerX1 - 70) + "px")
              .style("top", (baseY - 50) + "px");
     }).on("mouseout", () => {
@@ -281,7 +281,7 @@
     hoverZone2.on("mouseover", () => {
       const selectedPair = pairs[currentPairIndex].categories;
       tooltip.transition().duration(200).style("opacity", 1);
-      tooltip.html(`<strong>Condition:</strong> ${selectedPair[1]}<br><strong>Average Sway:</strong> ${calculateAverageSway(swayData2)} mm`)
+      tooltip.html(`<strong>Condition:</strong> ${selectedPair[1]}<br><strong>Average Sway:</strong> ${calculateAverageSway(currentPair[1])} mm`)
              .style("left", (centerX2 - 70) + "px")
              .style("top", (baseY - 50) + "px");
     }).on("mouseout", () => {
@@ -300,6 +300,7 @@
         step = 0;
         cancelAnimationFrame(animationFrame);
         updateGraph(this.value);
+
         });
     }
 
@@ -392,6 +393,7 @@
         svg2.selectAll(".line")
         .data(currentPair)
         .attr("d", d => line(d.slice(0, step)));
+        console.log(currentPair);
     }
 
     function startAnimation() {
@@ -492,4 +494,3 @@
         startAnimation();
     }
     });
-    
