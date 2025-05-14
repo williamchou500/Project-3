@@ -70,19 +70,23 @@
 
 
 
-<div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 30px; margin-top: 20px;">
-  
-  <!-- Left visualization and overview -->
-  <div style="display: flex; flex-direction: column; align-items: center;">
-    <p>The stick figure animation represents the average body sway based on data collected from 28 participants under each condition.
+<div style="display: grid; grid-template-columns: subgrid; justify-content: space-between; align-items: flex-start; gap: 30px; margin-top: 20px;">
+
+    <p style="display: flex; grid-row: 1; grid-column: 1; margin-bottom: 0;">The stick figure animation represents the average body sway based on data collected from 28 participants under each condition.
       At each second, the x- and y-axis positions are averaged across all participants to simulate how the "average" person moved in that condition.</p>
+    <p style="display: flex; grid-row: 1; grid-column: 2; margin-bottom: 0;">The line chart shows the average displacement from the origin (in millimeters) over time.
+      It is calculated from the same 28-participant datasets, with displacement values averaged at each second for the selected condition.</p>
+  <!-- Left visualization and overview -->
+  <div style="display: flex; flex-direction: column; align-items: center; grid-row: 2; grid-column: 1;">
+    <!-- <p>The stick figure animation represents the average body sway based on data collected from 28 participants under each condition.
+      At each second, the x- and y-axis positions are averaged across all participants to simulate how the "average" person moved in that condition.</p> -->
     <svg id="svg1" width="850" height="600"></svg>
   </div>
 
   <!-- Right visualization and overview -->
-  <div style="display: flex; flex-direction: column; align-items: center;">
-    <p>The line chart shows the average displacement from the origin (in millimeters) over time.
-      It is calculated from the same 28-participant datasets, with displacement values averaged at each second for the selected condition.</p>
+  <div style="display: flex; flex-direction: column; align-items: center; grid-row: 2; grid-column: 2;">
+    <!-- <p>The line chart shows the average displacement from the origin (in millimeters) over time.
+      It is calculated from the same 28-participant datasets, with displacement values averaged at each second for the selected condition.</p> -->
     <svg id="svg2" width="850" height="600"></svg>
     <div id="legend" style="margin-top: 10px;"></div>
   </div>
