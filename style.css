@@ -122,7 +122,7 @@ button:hover {
   pointer-events: none;
   box-shadow: 0 6px 12px rgba(0,0,0,0.15);
   color: #222;
-  transform: translateY(800px);
+  transform: translateY(650px);
 }
 
 #svg2 {
@@ -169,7 +169,6 @@ select:hover {
 
 .overview {
   text-align: left;
-  margin-bottom: 40px;
   padding: 20px;
   background-color: #ffffff;
   border-left: 4px solid #3498db;

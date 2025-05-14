@@ -23,6 +23,8 @@
     const leftLeg2 = svg1.append("line").attr("stroke", "black").attr("stroke-width", 10);
     const rightLeg2 = svg1.append("line").attr("stroke", "black").attr("stroke-width", 10);
 
+    // const base = svg1.append("line")
+
     const hoverZone1 = svg1.append("rect")
       .attr("width", 200)
       .attr("height", 250)
