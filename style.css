@@ -204,5 +204,10 @@ summary {
   cursor: pointer;
 }
 
+.wobblers {
+  font-size: 200%; 
+  font-weight: bolder; 
+}
+
 
 
