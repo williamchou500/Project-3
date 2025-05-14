@@ -207,6 +207,7 @@ summary {
 .wobblers {
   font-size: 200%; 
   font-weight: bolder; 
+  border-bottom: 2px solid;
 }
 
 
