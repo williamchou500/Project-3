@@ -68,16 +68,26 @@
   </details>
 
 
-  <div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 30px; margin-top: 20px;">
-    
-    <svg id="svg1" width="850" height="600"></svg>
 
-    
-    <div style="display: flex; flex-direction: column;">
-      <svg id="svg2" width="850" height="600"></svg>
-      <div id="legend" style="margin-top: 10px;"></div>
-    </div>
+
+<div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 30px; margin-top: 20px;">
+  
+  <!-- Left visualization and overview -->
+  <div style="display: flex; flex-direction: column; align-items: center;">
+    <p>The stick figure animation represents the average body sway based on data collected from 28 participants under each condition.
+      At each second, the x- and y-axis positions are averaged across all participants to simulate how the "average" person moved in that condition.</p>
+    <svg id="svg1" width="850" height="600"></svg>
   </div>
+
+  <!-- Right visualization and overview -->
+  <div style="display: flex; flex-direction: column; align-items: center;">
+    <p>The line chart shows the average displacement from the origin (in millimeters) over time.
+      It is calculated from the same 28-participant datasets, with displacement values averaged at each second for the selected condition.</p>
+    <svg id="svg2" width="850" height="600"></svg>
+    <div id="legend" style="margin-top: 10px;"></div>
+  </div>
+</div>
+
 
   <div id="tooltip" class="tooltip" style="opacity: 0;"></div>
 
