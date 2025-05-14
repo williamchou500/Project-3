@@ -78,5 +78,19 @@
 
   <div id="tooltip" class="tooltip" style="opacity: 0;"></div>
 
+<div class="write-up">
+  <h2 style="margin-top: 5em;">Rationale for design decisions:</h2> 
+  <p style="line-height: 150%; margin-left: 35em; margin-right: 35em;">We chose a dataset that measures the sway of a person under different conditions, mainly consisting of shifts in the x- and y-coordinates over time. Creating an engaging, useful interactive visualization was a bit complicated because the changes in the data were very subtle.
+We started by graphing the data in scatter plots and bar charts, trying to see whether there was a clear pattern. We noticed that, in most cases, music made people sway less, so we started thinking about how to show that difference interactively. At first, we created a visualization of a dot shifting over time to see if viewers could perceive the movement differences. But we realized that tracking a single dot didn't really help convey the difference in sway effectively.
+That's when we decided to create a wobbling stick figure representing a human, using data from conditions like VR on, eyes closed, and music on or off for all of the samples. When the first animation worked and we saw a noticeable difference between the figures with and without music, we decided to show two stick figures wobbling side by side. Using all 28 samples required viewers taking unnecessary steps of changing between samples and made noticing the patterns more confusing, therefore, we made a decision to use the average data for x and y coordinates per second. However, even with two figures, the difference was still a bit hard to notice at times, so we added a line chart that appears as the figures move, showing the precise scale of their movement over time. To make the comparison even clearer, we also added tooltips showing the average sway for each condition. We kept the color palette and design simple and neutral to avoid distracting from the movement comparisons.
+  </p>
+  <h2>Overview of development process:</h2>
+  <p style="line-height: 150%; margin-left: 35em; margin-right: 35em;">
+  Before the first meeting, we split the workload by having each of our four members create two exploratory and/or interactive visualizations of their choice. We wanted to see as many different ideas as possible before narrowing down the final design. Each exploratory project took about four hours per student as the dataset was quite complex.
+Once we decided to build on the stick figure idea, we worked together to sketch a prototype of the final website on paper, figuring out where to put each feature. While coming up with the ideas took about 4 hours each, building the final version took much more time. We worked through several drafts and kept running into coding issues: tooltips appeared in the wrong locations, one of the stick figures would disappear, and parts of the dataset would cause the visualizations to break.
+We were constantly discussing new features, changing the layout and style, and fixing bugs over several days, with everyone picking up different tasks to help each other. The second phase of development took each team member well over 20 hours before we got to a version of the website that we were happy with.
+  </p>
+</div>
+
 </body>
 </html>
