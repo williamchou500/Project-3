@@ -23,7 +23,8 @@
     const leftLeg2 = svg1.append("line").attr("stroke", "black").attr("stroke-width", 10);
     const rightLeg2 = svg1.append("line").attr("stroke", "black").attr("stroke-width", 10);
 
-    // const base = svg1.append("line")
+    const base1 = svg1.append("line").attr("stroke", "red").attr("stroke-width", "5")
+    const base2 = svg1.append("line").attr("stroke", "blue").attr("stroke-width", "5")
 
     const hoverZone1 = svg1.append("rect")
       .attr("width", 200)
@@ -193,7 +194,7 @@
     currentIndex = 0;
     }
 
-    function drawHuman(centerX, offsetX, offsetY, body, head, leftArm, rightArm, leftLeg, rightLeg, hoverZone) {
+    function drawHuman(centerX, offsetX, offsetY, body, head, leftArm, rightArm, leftLeg, rightLeg, hoverZone, base) {
       const torsoTopX = centerX + offsetX;
       const torsoTopY = baseY - 120 + offsetY;
       const torsoBottomX = centerX;
@@ -218,6 +219,9 @@
 
       hoverZone.attr("x", torsoTopX - 60)
                .attr("y", torsoTopY - 60);
+
+      base.attr("x1", centerX - 50).attr("y1", baseY + 90)
+          .attr("x2", centerX + 50).attr("y2", baseY + 90)     
     }
 
     function drawCurrentFigures() {
@@ -231,8 +235,8 @@
         const offsetX2 = d2.CoPx * swayScaleX;
         const offsetY2 = -d2.CoPy * swayScaleY;
 
-        drawHuman(centerX1, offsetX1, offsetY1, body1, head1, leftArm1, rightArm1, leftLeg1, rightLeg1, hoverZone1);
-        drawHuman(centerX2, offsetX2, offsetY2, body2, head2, leftArm2, rightArm2, leftLeg2, rightLeg2, hoverZone2);
+        drawHuman(centerX1, offsetX1, offsetY1, body1, head1, leftArm1, rightArm1, leftLeg1, rightLeg1, hoverZone1, base1);
+        drawHuman(centerX2, offsetX2, offsetY2, body2, head2, leftArm2, rightArm2, leftLeg2, rightLeg2, hoverZone2, base2);
       }
     }
 
@@ -358,9 +362,11 @@
         const legendContainer = d3.select("#legend");
         legendContainer.html("")
             .style("display", "flex")
-            .style("flex-direction", "column")
+            .style("flex-direction", "row")
             .style("gap", "8px")
-            .style("width", "500px");
+            .style("width", "500px")
+            .style("margin", "auto")
+            .style("margin-top", "20px");
 
         const labels = gpairs[pairKey];
 
