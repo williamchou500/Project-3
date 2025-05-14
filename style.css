@@ -197,6 +197,13 @@ details {
   border-radius: 8px;
   background-color: #f9f9f9;
   text-align: left;
+  width: 50vw;
 }
+
+summary {
+  font-size: 1.1em;
+  cursor: pointer;
+}
+
 
 
