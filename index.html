@@ -6,6 +6,7 @@
   <title>Human Balance Animation - Paired Comparison</title>
   <link rel="stylesheet" href="style.css">
   <script src="https://d3js.org/d3.v7.min.js"></script>
+  <script type = "module" src="./global.js"></script>
 </head>
 <body>
   <h1>Compare Body Sway Between Two Conditions</h1>
@@ -26,32 +27,6 @@
     </p>
   </div>
 
-  <div class="overview">
-    <h3>How to Use the Interface</h3>
-    <ol>
-      <li><strong>Browse Categories:</strong>
-        <p>Use the ◄ ► arrows to navigate through different experimental conditions (e.g., "Mozart vs No Music, Eyes Closed, VR On").</p>
-      </li>
-      <li><strong>Control Animation:</strong>
-        <ul class="nested-list">
-          <li><strong>Play:</strong> Start the human animation and line chart updates.</li>
-          <li><strong>Pause:</strong> Pause the ongoing animation.</li>
-          <li><strong>Restart:</strong> Restart the animation from the beginning.</li>
-          <li><strong>Skip:</strong> Jump directly to the final state showing the completed line chart.</li>
-        </ul>
-      </li>
-      <li><strong>Adjust Animation Speed:</strong>
-        <p>Use the dropdown to speed up or slow down the animation playback.</p>
-      </li>
-      <li><strong>Interact with Humans:</strong>
-        <p>Hover your mouse over the animated human figures to view a tooltip showing:</p>
-        <ul class="nested-list">
-          <li>The condition label.</li>
-          <li>The current average sway in millimetres for that condition.</li>
-        </ul>
-      </li>
-    </ol>
-  </div>
 
 
   <div class="controls">
@@ -75,6 +50,23 @@
     </select>
   </div>
 
+  <details>
+    <summary><strong>How to Use the Interface</strong></summary>
+    <ol>
+      <li><strong>Browse Categories:</strong> Use the ◄ ► arrows to navigate.</li>
+      <li><strong>Control Animation:</strong>
+        <ul>
+          <li><strong>Play:</strong> Start the animation.</li>
+          <li><strong>Pause:</strong> Pause it.</li>
+          <li><strong>Restart:</strong> Restart from beginning.</li>
+          <li><strong>Skip:</strong> Jump to final state.</li>
+        </ul>
+      </li>
+      <li><strong>Adjust Speed:</strong> Use the dropdown to control playback speed.</li>
+      <li><strong>Interact:</strong> Hover over figures for tooltips.</li>
+    </ol>
+  </details>
+
 
   <div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 30px; margin-top: 20px;">
     
@@ -89,8 +81,5 @@
 
   <div id="tooltip" class="tooltip" style="opacity: 0;"></div>
 
-  <script type="module">
-    import './global.js'
-  </script>
 </body>
 </html>
