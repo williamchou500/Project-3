@@ -256,8 +256,8 @@
         const offsetX2 = d2.CoPx * swayScaleX;
         const offsetY2 = -d2.CoPy * swayScaleY;
 
-        drawHuman(centerX1, offsetX1, offsetY1, body1, head1, leftArm1, rightArm1, leftLeg1, rightLeg1, hoverZone1);
-        drawHuman(centerX2, offsetX2, offsetY2, body2, head2, leftArm2, rightArm2, leftLeg2, rightLeg2, hoverZone2);
+        drawHuman(centerX1, offsetX1, offsetY1, body1, head1, leftArm1, rightArm1, leftLeg1, rightLeg1, hoverZone1, base1);
+        drawHuman(centerX2, offsetX2, offsetY2, body2, head2, leftArm2, rightArm2, leftLeg2, rightLeg2, hoverZone2, base2);
 
         currentIndex++;
       }, 1000 / animationSpeedFactor);
