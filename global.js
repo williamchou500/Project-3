@@ -401,7 +401,6 @@
         svg2.selectAll(".line")
         .data(currentPair)
         .attr("d", d => line(d.slice(0, step)));
-        console.log(currentPair);
     }
 
     function startAnimation() {
